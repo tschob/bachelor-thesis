@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="BSCAbstractContext" representedClassName="BSCAbstractContext" isAbstract="YES" syncable="YES">
+        <attribute name="applicationIsInForeground" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="deviceIsLocked" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="reachableViaWWAN" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="screenBrightness" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="motionContext" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCMotionContext" inverseName="context" inverseEntity="BSCMotionContext" syncable="YES"/>
+    </entity>
+    <entity name="BSCAbstractWeatherContext" representedClassName="BSCAbstractWeatherContext" isAbstract="YES" syncable="YES">
+        <attribute name="dayMaxTemperature" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dayMinTemperature" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="isDaylight" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="visibility" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="windSpeed" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="BSCContext" representedClassName="BSCContext" parentEntity="BSCAbstractContext" syncable="YES">
+        <attribute name="avAudioSessionOutputPort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wifiSSID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contextUserDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContextUserDescription" inverseName="context" inverseEntity="BSCContextUserDescription" syncable="YES"/>
+        <relationship name="locationCoordinates" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCLocationCoordinates" inverseName="context" inverseEntity="BSCLocationCoordinates" syncable="YES"/>
+        <relationship name="playlogSong" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCPlaylogSong" inverseName="context" inverseEntity="BSCPlaylogSong" syncable="YES"/>
+        <relationship name="weatherContext" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCWeatherContext" inverseName="context" inverseEntity="BSCWeatherContext" syncable="YES"/>
+    </entity>
+    <entity name="BSCContextCollection" representedClassName="BSCContextCollection" parentEntity="BSCAbstractContext" syncable="YES">
+        <attribute name="avAudioSessionOutputPorts" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="countries" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wifiSSIDs" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="locationCoordinates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BSCLocationCoordinates" inverseName="contextCollection" inverseEntity="BSCLocationCoordinates" syncable="YES"/>
+        <relationship name="playlogSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCPlaylogSession" inverseName="contextCollection" inverseEntity="BSCPlaylogSession" syncable="YES"/>
+        <relationship name="weatherContextCollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCWeatherContextCollection" inverseName="contextCollection" inverseEntity="BSCWeatherContextCollection" syncable="YES"/>
+    </entity>
+    <entity name="BSCContextUserDescription" representedClassName="BSCContextUserDescription" syncable="YES">
+        <attribute name="activity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationKind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="musicListeningReason" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="context" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContext" inverseName="contextUserDescription" inverseEntity="BSCContext" syncable="YES"/>
+    </entity>
+    <entity name="BSCLocationCoordinates" representedClassName="BSCLocationCoordinates" syncable="YES">
+        <attribute name="accuracy" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="context" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContext" inverseName="locationCoordinates" inverseEntity="BSCContext" syncable="YES"/>
+        <relationship name="contextCollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContextCollection" inverseName="locationCoordinates" inverseEntity="BSCContextCollection" syncable="YES"/>
+    </entity>
+    <entity name="BSCMotionContext" representedClassName="BSCMotionContext" syncable="YES">
+        <attribute name="car" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="cycling" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="running" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="stationary" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="unknown" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="walking" optional="YES" attributeType="Float" syncable="YES"/>
+        <relationship name="context" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCAbstractContext" inverseName="motionContext" inverseEntity="BSCAbstractContext" syncable="YES"/>
+    </entity>
+    <entity name="BSCPlaylogSession" representedClassName="BSCPlaylogSession" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="importedFromITunes" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="importedFromPlaylog" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="startDate" attributeType="Date" syncable="YES"/>
+        <relationship name="contextCollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContextCollection" inverseName="playlogSession" inverseEntity="BSCContextCollection" syncable="YES"/>
+        <relationship name="playlogSongs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BSCPlaylogSong" inverseName="session" inverseEntity="BSCPlaylogSong" syncable="YES"/>
+    </entity>
+    <entity name="BSCPlaylogSong" representedClassName="BSCPlaylogSong" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="playedDuration" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="playlistTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queueShuffled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="startDate" attributeType="Date" syncable="YES"/>
+        <relationship name="context" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContext" inverseName="playlogSong" inverseEntity="BSCContext" syncable="YES"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCPlaylogSession" inverseName="playlogSongs" inverseEntity="BSCPlaylogSession" syncable="YES"/>
+        <relationship name="songInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCSongInfo" inverseName="playlogSongs" inverseEntity="BSCSongInfo" syncable="YES"/>
+    </entity>
+    <entity name="BSCSongInfo" representedClassName="BSCSongInfo" syncable="YES">
+        <attribute name="albumTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artistName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="genre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="persistentID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="playlogSongs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BSCPlaylogSong" inverseName="songInfo" inverseEntity="BSCPlaylogSong" syncable="YES"/>
+    </entity>
+    <entity name="BSCWeatherContext" representedClassName="BSCWeatherContext" parentEntity="BSCAbstractWeatherContext" syncable="YES">
+        <attribute name="yWeatherCondition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yWeatherConditionCode" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="context" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContext" inverseName="weatherContext" inverseEntity="BSCContext" syncable="YES"/>
+    </entity>
+    <entity name="BSCWeatherContextCollection" representedClassName="BSCWeatherContextCollection" parentEntity="BSCAbstractWeatherContext" syncable="YES">
+        <attribute name="yWeatherConditionCodes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="yWeatherConditions" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="contextCollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BSCContextCollection" inverseName="weatherContextCollection" inverseEntity="BSCContextCollection" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BSCAbstractContext" positionX="-290" positionY="-189" width="128" height="135"/>
+        <element name="BSCAbstractWeatherContext" positionX="-540" positionY="-45" width="128" height="150"/>
+        <element name="BSCContext" positionX="-9" positionY="-189" width="128" height="165"/>
+        <element name="BSCContextCollection" positionX="-29" positionY="-24" width="128" height="165"/>
+        <element name="BSCContextUserDescription" positionX="-540" positionY="-45" width="128" height="135"/>
+        <element name="BSCLocationCoordinates" positionX="-540" positionY="-45" width="128" height="120"/>
+        <element name="BSCMotionContext" positionX="-18" positionY="171" width="128" height="150"/>
+        <element name="BSCPlaylogSession" positionX="-308" positionY="81" width="128" height="135"/>
+        <element name="BSCPlaylogSong" positionX="-513" positionY="75" width="128" height="163"/>
+        <element name="BSCSongInfo" positionX="-747" positionY="75" width="128" height="150"/>
+        <element name="BSCWeatherContext" positionX="-477" positionY="-198" width="128" height="90"/>
+        <element name="BSCWeatherContextCollection" positionX="-531" positionY="-36" width="128" height="90"/>
+    </elements>
+</model>
