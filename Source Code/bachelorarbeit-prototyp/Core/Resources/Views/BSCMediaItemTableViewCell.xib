@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="mediaItemCell" id="6xs-cr-QGW" customClass="BSCMediaItemTableViewCell" customModule="bachelorarbeit_contextlogger_alpha" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6xs-cr-QGW" id="8Ii-Pg-dHC">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSv-2G-Hp0">
+                        <rect key="frame" x="10" y="14" width="25" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="BU1-98-EES"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhB-SR-sZD" customClass="MarqueeLabel">
+                        <rect key="frame" x="45" y="13" width="485" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lS9-1m-cwC">
+                        <rect key="frame" x="540" y="14" width="50" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="QuB-1t-AId"/>
+                            <constraint firstAttribute="width" priority="750" constant="50" id="raL-cr-jev"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lS9-1m-cwC" firstAttribute="centerY" secondItem="8Ii-Pg-dHC" secondAttribute="centerY" id="ORN-RM-5LZ"/>
+                    <constraint firstAttribute="trailing" secondItem="lS9-1m-cwC" secondAttribute="trailing" constant="10" id="eAl-8H-3QE"/>
+                    <constraint firstItem="PhB-SR-sZD" firstAttribute="centerY" secondItem="8Ii-Pg-dHC" secondAttribute="centerY" id="fs1-aV-3XG"/>
+                    <constraint firstItem="lS9-1m-cwC" firstAttribute="leading" secondItem="PhB-SR-sZD" secondAttribute="trailing" constant="10" id="jz0-3v-jVU"/>
+                    <constraint firstItem="WSv-2G-Hp0" firstAttribute="centerY" secondItem="8Ii-Pg-dHC" secondAttribute="centerY" id="xkG-IF-Dbg"/>
+                    <constraint firstItem="WSv-2G-Hp0" firstAttribute="leading" secondItem="8Ii-Pg-dHC" secondAttribute="leading" constant="10" id="yIH-SH-IzU"/>
+                    <constraint firstItem="PhB-SR-sZD" firstAttribute="leading" secondItem="WSv-2G-Hp0" secondAttribute="trailing" constant="10" id="yX6-79-gFA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="durationLabel" destination="lS9-1m-cwC" id="rBf-ga-aSZ"/>
+                <outlet property="positionLabel" destination="WSv-2G-Hp0" id="b3g-13-Ul4"/>
+                <outlet property="titleLabel" destination="PhB-SR-sZD" id="ceH-VD-ebn"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

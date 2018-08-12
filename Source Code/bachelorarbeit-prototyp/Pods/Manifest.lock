@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DKHelper (2.1.1)
+  - HockeySDK (3.8.5):
+    - HockeySDK/AllFeaturesLib (= 3.8.5)
+  - HockeySDK/AllFeaturesLib (3.8.5)
+  - LEColorPicker (1.0.3)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MarqueeLabel (2.5.0)
+  - MBProgressHUD (0.9.2)
+  - Reachability (3.2)
+  - UIDevice-PasscodeStatus (0.0.2)
+  - YWeatherAPI (1.0.6):
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - DKHelper (~> 2.1.1)
+  - HockeySDK (~> 3.8.5)
+  - LEColorPicker (~> 1.0.3)
+  - MagicalRecord (~> 2.3.0)
+  - MarqueeLabel (~> 2.5.0)
+  - MBProgressHUD (~> 0.9.2)
+  - Reachability (~> 3.2)
+  - UIDevice-PasscodeStatus (~> 0.0.2)
+  - YWeatherAPI (~> 1.0.6)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DKHelper: f3ae720460430b472f10b7dcf72c4d97ecced2c3
+  HockeySDK: dd11a2b9da3372fd025643bee5bc10c8c613d169
+  LEColorPicker: 34509a9df7a128b1109a5dbe3f25921fc511c03d
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MarqueeLabel: 6b8ff6915c0536c5099ac30992b7d72f9807df20
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  UIDevice-PasscodeStatus: 250b63a271e85223105ff4c1626056ce3aab3305
+  YWeatherAPI: 1933a76fc867f06f329101691c6758898bed05f7
+
+COCOAPODS: 0.39.0

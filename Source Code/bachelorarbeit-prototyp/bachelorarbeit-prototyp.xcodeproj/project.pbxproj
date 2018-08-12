@@ -1,0 +1,2442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A02A8C61C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02A8C51C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift */; };
+		3A02A8C71C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02A8C51C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift */; };
+		3A09A17E1C22ED7D006980C4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A316E1C00C35900DE5B11 /* MediaPlayer.framework */; };
+		3A09A17F1C22EDB2006980C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A316C1C00C2DE00DE5B11 /* Foundation.framework */; };
+		3A09A1811C22EDB8006980C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A09A1801C22EDB8006980C4 /* libPods.a */; };
+		3A0FB3EE1C60EDB200CB4C04 /* NSManagedObject+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FB3ED1C60EDB200CB4C04 /* NSManagedObject+Serialization.m */; };
+		3A0FB3EF1C60EDB200CB4C04 /* NSManagedObject+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FB3ED1C60EDB200CB4C04 /* NSManagedObject+Serialization.m */; };
+		3A0FB3F31C60EECC00CB4C04 /* BSCDebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FB3F21C60EECC00CB4C04 /* BSCDebugTableViewController.swift */; };
+		3A0FB3F41C60EECC00CB4C04 /* BSCDebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FB3F21C60EECC00CB4C04 /* BSCDebugTableViewController.swift */; };
+		3A0FFB681C2EE02800798803 /* BSCPlaylogSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB651C2EE02800798803 /* BSCPlaylogSession.swift */; };
+		3A0FFB691C2EE02800798803 /* BSCPlaylogSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB651C2EE02800798803 /* BSCPlaylogSession.swift */; };
+		3A0FFB6A1C2EE02800798803 /* BSCPlaylogSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB661C2EE02800798803 /* BSCPlaylogSong.swift */; };
+		3A0FFB6B1C2EE02800798803 /* BSCPlaylogSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB661C2EE02800798803 /* BSCPlaylogSong.swift */; };
+		3A0FFB6C1C2EE02800798803 /* BSCSongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB671C2EE02800798803 /* BSCSongInfo.swift */; };
+		3A0FFB6D1C2EE02800798803 /* BSCSongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB671C2EE02800798803 /* BSCSongInfo.swift */; };
+		3A0FFB6F1C2EE59200798803 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0FFB6E1C2EE59200798803 /* Debug.storyboard */; };
+		3A0FFB701C2EE59200798803 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0FFB6E1C2EE59200798803 /* Debug.storyboard */; };
+		3A18211E1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18211D1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift */; };
+		3A18211F1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18211D1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift */; };
+		3A1821271C32889A00C21BDC /* BSCMotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821211C32889A00C21BDC /* BSCMotionContext.swift */; };
+		3A1821281C32889A00C21BDC /* BSCMotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821211C32889A00C21BDC /* BSCMotionContext.swift */; };
+		3A1821291C32889A00C21BDC /* BSCContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821221C32889A00C21BDC /* BSCContext.swift */; };
+		3A18212A1C32889A00C21BDC /* BSCContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821221C32889A00C21BDC /* BSCContext.swift */; };
+		3A1821441C32A42C00C21BDC /* BSCContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821431C32A42C00C21BDC /* BSCContextManager.swift */; };
+		3A1821451C32A42C00C21BDC /* BSCContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821431C32A42C00C21BDC /* BSCContextManager.swift */; };
+		3A1821481C32BBCA00C21BDC /* BSCMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1821471C32BBCA00C21BDC /* BSCMapTableViewCell.xib */; };
+		3A1821491C32BBCA00C21BDC /* BSCMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1821471C32BBCA00C21BDC /* BSCMapTableViewCell.xib */; };
+		3A18214B1C32BC3200C21BDC /* BSCMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18214A1C32BC3200C21BDC /* BSCMapTableViewCell.swift */; };
+		3A18214C1C32BC3200C21BDC /* BSCMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18214A1C32BC3200C21BDC /* BSCMapTableViewCell.swift */; };
+		3A2652D11C1973580042C243 /* BSCPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652D01C1973580042C243 /* BSCPreferences.swift */; };
+		3A2652D21C1973580042C243 /* BSCPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652D01C1973580042C243 /* BSCPreferences.swift */; };
+		3A2652EE1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652ED1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift */; };
+		3A2652EF1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652ED1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift */; };
+		3A2652F21C19B9830042C243 /* BSCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652F11C19B9830042C243 /* BSCHelper.swift */; };
+		3A2652F31C19B9830042C243 /* BSCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652F11C19B9830042C243 /* BSCHelper.swift */; };
+		3A2652FF1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652FE1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift */; };
+		3A2653001C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652FE1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift */; };
+		3A2E198B1C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19871C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift */; };
+		3A2E198C1C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19871C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift */; };
+		3A2E198D1C048BD400D21E61 /* BSCAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19881C048BD400D21E61 /* BSCAlbumsViewController.swift */; };
+		3A2E198E1C048BD400D21E61 /* BSCAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19881C048BD400D21E61 /* BSCAlbumsViewController.swift */; };
+		3A2E198F1C048BD400D21E61 /* BSCAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19891C048BD400D21E61 /* BSCAlbumViewController.swift */; };
+		3A2E19901C048BD400D21E61 /* BSCAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19891C048BD400D21E61 /* BSCAlbumViewController.swift */; };
+		3A2E19911C048BD400D21E61 /* BSCSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E198A1C048BD400D21E61 /* BSCSongsViewController.swift */; };
+		3A2E19921C048BD400D21E61 /* BSCSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E198A1C048BD400D21E61 /* BSCSongsViewController.swift */; };
+		3A2E19951C049A5900D21E61 /* BSCArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19931C049A5900D21E61 /* BSCArtistsViewController.swift */; };
+		3A2E19961C049A5900D21E61 /* BSCArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19931C049A5900D21E61 /* BSCArtistsViewController.swift */; };
+		3A2E19971C049A5900D21E61 /* BSCArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19941C049A5900D21E61 /* BSCArtistViewController.swift */; };
+		3A2E19981C049A5900D21E61 /* BSCArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19941C049A5900D21E61 /* BSCArtistViewController.swift */; };
+		3A3912FD1C1EF3D700882068 /* BSCSongTimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3912FC1C1EF3D700882068 /* BSCSongTimeSlider.swift */; };
+		3A3912FE1C1EF3D700882068 /* BSCSongTimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3912FC1C1EF3D700882068 /* BSCSongTimeSlider.swift */; };
+		3A43BA061C61343700432A2E /* BSCLocationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43BA051C61343700432A2E /* BSCLocationCoordinates.swift */; };
+		3A43BA071C61343700432A2E /* BSCLocationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43BA051C61343700432A2E /* BSCLocationCoordinates.swift */; };
+		3A49E3AD1C591F5500CE7F06 /* BSCRecommendationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49E3AC1C591F5500CE7F06 /* BSCRecommendationManager.swift */; };
+		3A49E3AE1C591F5500CE7F06 /* BSCRecommendationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49E3AC1C591F5500CE7F06 /* BSCRecommendationManager.swift */; };
+		3A53ED1F1C8E481F00A97F5D /* BSCRecommendationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53ED1E1C8E481F00A97F5D /* BSCRecommendationsCell.swift */; };
+		3A53ED201C8E481F00A97F5D /* BSCRecommendationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53ED1E1C8E481F00A97F5D /* BSCRecommendationsCell.swift */; };
+		3A53ED221C8E485500A97F5D /* UIColor+BSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53ED211C8E485500A97F5D /* UIColor+BSC.swift */; };
+		3A53ED231C8E485500A97F5D /* UIColor+BSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53ED211C8E485500A97F5D /* UIColor+BSC.swift */; };
+		3A53ED241C8E485500A97F5D /* UIColor+BSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53ED211C8E485500A97F5D /* UIColor+BSC.swift */; };
+		3A53ED251C8E486000A97F5D /* BSCRecommendationHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E723A1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift */; };
+		3A53ED261C8E487700A97F5D /* BSCRecommendationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53ED1E1C8E481F00A97F5D /* BSCRecommendationsCell.swift */; };
+		3A57B67C1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B67B1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift */; };
+		3A57B67D1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B67B1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift */; };
+		3A57B6821C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B6811C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift */; };
+		3A57B6831C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B6811C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift */; };
+		3A57B69C1C03B77B00B1A507 /* BSCTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B69B1C03B77B00B1A507 /* BSCTableViewFooterView.swift */; };
+		3A57B69D1C03B77B00B1A507 /* BSCTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B69B1C03B77B00B1A507 /* BSCTableViewFooterView.swift */; };
+		3A5992F31C723D66006FD38D /* BSCContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD2681C72090A008F11FD /* BSCContext+CoreDataProperties.swift */; };
+		3A5992F41C723D67006FD38D /* BSCContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD2681C72090A008F11FD /* BSCContext+CoreDataProperties.swift */; };
+		3A5992F81C723DD3006FD38D /* BSCRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5992F71C723DD3006FD38D /* BSCRecommendation.swift */; };
+		3A5992F91C723DD3006FD38D /* BSCRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5992F71C723DD3006FD38D /* BSCRecommendation.swift */; };
+		3A5992FD1C72403B006FD38D /* BSCSongContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5992FC1C72403B006FD38D /* BSCSongContext.swift */; };
+		3A5992FE1C72403B006FD38D /* BSCSongContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5992FC1C72403B006FD38D /* BSCSongContext.swift */; };
+		3A5993021C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993011C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift */; };
+		3A5993031C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993011C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift */; };
+		3A5993191C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993161C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift */; };
+		3A59931A1C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993161C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift */; };
+		3A59931D1C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993171C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift */; };
+		3A59931E1C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993171C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift */; };
+		3A5993211C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993181C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift */; };
+		3A5993221C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993181C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift */; };
+		3A59932F1C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993261C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift */; };
+		3A5993301C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993261C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift */; };
+		3A5993331C7248E5006FD38D /* BSCContextDetailDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993281C7248E5006FD38D /* BSCContextDetailDebugViewController.swift */; };
+		3A5993341C7248E5006FD38D /* BSCContextDetailDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993281C7248E5006FD38D /* BSCContextDetailDebugViewController.swift */; };
+		3A5993371C7248E5006FD38D /* BSCContextDetailRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993291C7248E5006FD38D /* BSCContextDetailRows.swift */; };
+		3A5993381C7248E5006FD38D /* BSCContextDetailRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993291C7248E5006FD38D /* BSCContextDetailRows.swift */; };
+		3A59933B1C7248E5006FD38D /* BSCContextDetailSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932A1C7248E5006FD38D /* BSCContextDetailSections.swift */; };
+		3A59933C1C7248E5006FD38D /* BSCContextDetailSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932A1C7248E5006FD38D /* BSCContextDetailSections.swift */; };
+		3A59933F1C7248E5006FD38D /* BSCContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932C1C7248E5006FD38D /* BSCContextsDebugViewController.swift */; };
+		3A5993401C7248E5006FD38D /* BSCContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932C1C7248E5006FD38D /* BSCContextsDebugViewController.swift */; };
+		3A5993431C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932D1C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift */; };
+		3A5993441C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932D1C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift */; };
+		3A5993471C7248E5006FD38D /* BSCSongContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932E1C7248E5006FD38D /* BSCSongContextsDebugViewController.swift */; };
+		3A5993481C7248E5006FD38D /* BSCSongContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932E1C7248E5006FD38D /* BSCSongContextsDebugViewController.swift */; };
+		3A59934C1C724901006FD38D /* BSCContextPickerDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59934B1C724901006FD38D /* BSCContextPickerDebugViewController.swift */; };
+		3A59934D1C724901006FD38D /* BSCContextPickerDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59934B1C724901006FD38D /* BSCContextPickerDebugViewController.swift */; };
+		3A6CBCD21C159773009901D8 /* BSCContainerViewControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD11C159773009901D8 /* BSCContainerViewControllerSegue.swift */; };
+		3A6CBCD31C159773009901D8 /* BSCContainerViewControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD11C159773009901D8 /* BSCContainerViewControllerSegue.swift */; };
+		3A6CBCD51C1597F6009901D8 /* BSCContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD41C1597F6009901D8 /* BSCContainerViewController.swift */; };
+		3A6CBCD61C1597F6009901D8 /* BSCContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD41C1597F6009901D8 /* BSCContainerViewController.swift */; };
+		3A6CBCD91C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD81C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift */; };
+		3A6CBCDA1C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD81C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift */; };
+		3A6CBCDF1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCDE1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift */; };
+		3A6CBCE01C15B654009901D8 /* BSCMediaTypeSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCDE1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift */; };
+		3A6D30BA1C6CCF4300D6BF62 /* NSDate+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D30B91C6CCF4300D6BF62 /* NSDate+Rounded.swift */; };
+		3A6D30BB1C6CCF4300D6BF62 /* NSDate+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D30B91C6CCF4300D6BF62 /* NSDate+Rounded.swift */; };
+		3A6DA49C1C5A51D700811AA7 /* Recommendation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DA49B1C5A51D700811AA7 /* Recommendation.storyboard */; };
+		3A6DA49D1C5A51D700811AA7 /* Recommendation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DA49B1C5A51D700811AA7 /* Recommendation.storyboard */; };
+		3A6DA4A11C5A575A00811AA7 /* BSCRecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4A01C5A575A00811AA7 /* BSCRecommendationsViewController.swift */; };
+		3A6DA4A21C5A575A00811AA7 /* BSCRecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4A01C5A575A00811AA7 /* BSCRecommendationsViewController.swift */; };
+		3A6DA4A71C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4A61C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift */; };
+		3A6DA4A81C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4A61C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift */; };
+		3A6DA4B11C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4B01C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift */; };
+		3A6DA4B21C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4B01C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift */; };
+		3A6DA4B61C5B63F200811AA7 /* BSCRecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4B51C5B63F200811AA7 /* BSCRecommendationViewController.swift */; };
+		3A6DA4B71C5B63F200811AA7 /* BSCRecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4B51C5B63F200811AA7 /* BSCRecommendationViewController.swift */; };
+		3A6DA4BB1C5B6D2E00811AA7 /* BSCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4BA1C5B6D2E00811AA7 /* BSCMapView.swift */; };
+		3A6DA4BC1C5B6D2E00811AA7 /* BSCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4BA1C5B6D2E00811AA7 /* BSCMapView.swift */; };
+		3A6E717F1C8BB3590012A086 /* BSCContextComparisonDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993261C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift */; };
+		3A6E71801C8BB3590012A086 /* BSCSessionContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD2901C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift */; };
+		3A6E71811C8BB3590012A086 /* BSCLocationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43BA051C61343700432A2E /* BSCLocationCoordinates.swift */; };
+		3A6E71821C8BB3590012A086 /* BSCSongContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932E1C7248E5006FD38D /* BSCSongContextsDebugViewController.swift */; };
+		3A6E71831C8BB3590012A086 /* BSCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618E51C1DBB6C00AD09C4 /* BSCTabBarController.swift */; };
+		3A6E71841C8BB3590012A086 /* BSCSongTimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3912FC1C1EF3D700882068 /* BSCSongTimeSlider.swift */; };
+		3A6E71851C8BB3590012A086 /* BSCSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E198A1C048BD400D21E61 /* BSCSongsViewController.swift */; };
+		3A6E71861C8BB3590012A086 /* BSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF15A01C04CA6D006090D5 /* BSCViewController.swift */; };
+		3A6E71871C8BB3590012A086 /* BSCContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD2681C72090A008F11FD /* BSCContext+CoreDataProperties.swift */; };
+		3A6E71891C8BB3590012A086 /* MPMediaItemCollection+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF15971C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift */; };
+		3A6E718A1C8BB3590012A086 /* NSManagedObject+ADVCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC3D131C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m */; };
+		3A6E718B1C8BB3590012A086 /* BSCArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19931C049A5900D21E61 /* BSCArtistsViewController.swift */; };
+		3A6E718C1C8BB3590012A086 /* BSCMusicLibraryManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31741C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift */; };
+		3A6E718D1C8BB3590012A086 /* MPMediaItemCollection+BSCMusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31771C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift */; };
+		3A6E718E1C8BB3590012A086 /* BSCMotionContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26B1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift */; };
+		3A6E718F1C8BB3590012A086 /* BSCContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821221C32889A00C21BDC /* BSCContext.swift */; };
+		3A6E71901C8BB3590012A086 /* BSCSongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB671C2EE02800798803 /* BSCSongInfo.swift */; };
+		3A6E71911C8BB3590012A086 /* BSCContextPickerDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59934B1C724901006FD38D /* BSCContextPickerDebugViewController.swift */; };
+		3A6E71921C8BB3590012A086 /* BSCContextFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90FD9E1C7892EA009DD843 /* BSCContextFeature.swift */; };
+		3A6E71931C8BB3590012A086 /* BSCAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19881C048BD400D21E61 /* BSCAlbumsViewController.swift */; };
+		3A6E71951C8BB3590012A086 /* BSCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31831C012B2800DE5B11 /* BSCConstants.swift */; };
+		3A6E71961C8BB3590012A086 /* BSCRecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4B01C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift */; };
+		3A6E71971C8BB3590012A086 /* BSCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9581C1C55DC00F8F55C /* BSCButton.swift */; };
+		3A6E71981C8BB3590012A086 /* BSCGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB311F11C0A0CBB00EB31B4 /* BSCGenresViewController.swift */; };
+		3A6E71991C8BB3590012A086 /* BSCPlaylogSongsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448041C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift */; };
+		3A6E719A1C8BB3590012A086 /* BSCContextComparisonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02A8C51C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift */; };
+		3A6E719B1C8BB3590012A086 /* BSCWeatherContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D0071C4419DD00A38570 /* BSCWeatherContext.swift */; };
+		3A6E719C1C8BB3590012A086 /* BSCArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19941C049A5900D21E61 /* BSCArtistViewController.swift */; };
+		3A6E719D1C8BB3590012A086 /* BSCMusicLibraryContainerTypeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD81C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift */; };
+		3A6E719E1C8BB3590012A086 /* BSCRecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4B51C5B63F200811AA7 /* BSCRecommendationViewController.swift */; };
+		3A6E719F1C8BB3590012A086 /* BSCContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD41C1597F6009901D8 /* BSCContainerViewController.swift */; };
+		3A6E71A01C8BB3590012A086 /* BSCTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652ED1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift */; };
+		3A6E71A21C8BB3590012A086 /* BSCLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C3E21C4B093000B8294B /* BSCLog.swift */; };
+		3A6E71A31C8BB3590012A086 /* BSCContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821431C32A42C00C21BDC /* BSCContextManager.swift */; };
+		3A6E71A41C8BB3590012A086 /* BSCArtistAlbumHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652FE1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift */; };
+		3A6E71A51C8BB3590012A086 /* BSCMusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31711C00C39B00DE5B11 /* BSCMusicLibraryManager.swift */; };
+		3A6E71A61C8BB3590012A086 /* BSCPlaylogSong+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26D1C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift */; };
+		3A6E71A71C8BB3590012A086 /* BSCPlaylogSessionsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448001C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift */; };
+		3A6E71A81C8BB3590012A086 /* BSCSessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD29A1C72212B008F11FD /* BSCSessionContext.swift */; };
+		3A6E71AA1C8BB3590012A086 /* BSCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F791BF7914400B6DC6F /* BSCAppDelegate.swift */; };
+		3A6E71AB1C8BB3590012A086 /* BSCSimilarSessionContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993171C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift */; };
+		3A6E71AC1C8BB3590012A086 /* BSCPlaylogSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB651C2EE02800798803 /* BSCPlaylogSession.swift */; };
+		3A6E71AD1C8BB3590012A086 /* BSCWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C3E91C4B18AE00B8294B /* BSCWeatherManager.swift */; };
+		3A6E71AF1C8BB3590012A086 /* BSCPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF159A1C04BDB3006090D5 /* BSCPlaylistsViewController.swift */; };
+		3A6E71B01C8BB3590012A086 /* BSCRecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4A01C5A575A00811AA7 /* BSCRecommendationsViewController.swift */; };
+		3A6E71B11C8BB3590012A086 /* BSCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A95B1C1C6FDE00F8F55C /* BSCTableViewCell.swift */; };
+		3A6E71B31C8BB3590012A086 /* BSCContextDetailSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932A1C7248E5006FD38D /* BSCContextDetailSections.swift */; };
+		3A6E71B41C8BB3590012A086 /* BSCContextDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA246821C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift */; };
+		3A6E71B51C8BB3590012A086 /* BSCMusicPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9671C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift */; };
+		3A6E71B71C8BB3590012A086 /* BSCMusicLibraryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC445871C15939500D518BE /* BSCMusicLibraryContainerViewController.swift */; };
+		3A6E71B81C8BB3590012A086 /* BSCDebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FB3F21C60EECC00CB4C04 /* BSCDebugTableViewController.swift */; };
+		3A6E71B91C8BB3590012A086 /* UIStoryboard+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618EF1C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift */; };
+		3A6E71BA1C8BB3590012A086 /* BSCSimilarContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993161C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift */; };
+		3A6E71BB1C8BB3590012A086 /* BSCPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618EB1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift */; };
+		3A6E71BC1C8BB3590012A086 /* BSCSongInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26E1C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift */; };
+		3A6E71BE1C8BB3590012A086 /* BSCPlaylogSession+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26C1C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift */; };
+		3A6E71BF1C8BB3590012A086 /* BSCSessionContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932D1C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift */; };
+		3A6E71C01C8BB3590012A086 /* bachelorarbeit_prototyp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F831BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld */; };
+		3A6E71C11C8BB3590012A086 /* BSCContextDetailRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993291C7248E5006FD38D /* BSCContextDetailRows.swift */; };
+		3A6E71C21C8BB3590012A086 /* BSCRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5992F71C723DD3006FD38D /* BSCRecommendation.swift */; };
+		3A6E71C31C8BB3590012A086 /* BSCLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A895DD71C340A4600E29E02 /* BSCLocationManager.swift */; };
+		3A6E71C41C8BB3590012A086 /* BSCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4BA1C5B6D2E00811AA7 /* BSCMapView.swift */; };
+		3A6E71C51C8BB3590012A086 /* BSCWifiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAF91C1C35555F00783F6E /* BSCWifiHelper.swift */; };
+		3A6E71C61C8BB3590012A086 /* BSCPlaylogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA3901C2ACB8100C8D16C /* BSCPlaylogManager.swift */; };
+		3A6E71C71C8BB3590012A086 /* BSCRecommendationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49E3AC1C591F5500CE7F06 /* BSCRecommendationManager.swift */; };
+		3A6E71C81C8BB3590012A086 /* BSCMediaTypeSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCDE1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift */; };
+		3A6E71C91C8BB3590012A086 /* BSCMusicCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A317A1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift */; };
+		3A6E71CA1C8BB3590012A086 /* BSCMusicPlayerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCF471C201D1F0088A719 /* BSCMusicPlayerQueue.swift */; };
+		3A6E71CB1C8BB3590012A086 /* BSCNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90AA151C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift */; };
+		3A6E71CD1C8BB3590012A086 /* BSCContextComparisonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90FD9D1C7892EA009DD843 /* BSCContextComparisonHelper.swift */; };
+		3A6E71CE1C8BB3590012A086 /* BSCMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18214A1C32BC3200C21BDC /* BSCMapTableViewCell.swift */; };
+		3A6E71CF1C8BB3590012A086 /* NSDate+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D30B91C6CCF4300D6BF62 /* NSDate+Rounded.swift */; };
+		3A6E71D01C8BB3590012A086 /* BSCFetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448071C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift */; };
+		3A6E71D21C8BB3590012A086 /* BSCMusicPlayer+MPMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A96A1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift */; };
+		3A6E71D31C8BB3590012A086 /* BSCLocationCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26A1C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift */; };
+		3A6E71D41C8BB3590012A086 /* BSCSongContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993011C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift */; };
+		3A6E71D51C8BB3590012A086 /* BSCPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652D01C1973580042C243 /* BSCPreferences.swift */; };
+		3A6E71D61C8BB3590012A086 /* BSCContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A59932C1C7248E5006FD38D /* BSCContextsDebugViewController.swift */; };
+		3A6E71D71C8BB3590012A086 /* BSCTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B69B1C03B77B00B1A507 /* BSCTableViewFooterView.swift */; };
+		3A6E71D91C8BB3590012A086 /* NSManagedObject+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FB3ED1C60EDB200CB4C04 /* NSManagedObject+Serialization.m */; };
+		3A6E71DA1C8BB3590012A086 /* BSCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5CFF71C4415A700A38570 /* BSCExtensions.swift */; };
+		3A6E71DB1C8BB3590012A086 /* BSCPlaylogSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FFB661C2EE02800798803 /* BSCPlaylogSong.swift */; };
+		3A6E71DC1C8BB3590012A086 /* BSCSimilarSongContextsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993181C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift */; };
+		3A6E71DD1C8BB3590012A086 /* BSCRecommendationHeaderTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8E4181C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift */; };
+		3A6E71DE1C8BB3590012A086 /* BSCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2652F11C19B9830042C243 /* BSCHelper.swift */; };
+		3A6E71DF1C8BB3590012A086 /* MPMediaItem+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B6811C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift */; };
+		3A6E71E01C8BB3590012A086 /* BSCContextDetailDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5993281C7248E5006FD38D /* BSCContextDetailDebugViewController.swift */; };
+		3A6E71E11C8BB3590012A086 /* BSCRecommendationsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA4A61C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift */; };
+		3A6E71E21C8BB3590012A086 /* BSCAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19891C048BD400D21E61 /* BSCAlbumViewController.swift */; };
+		3A6E71E31C8BB3590012A086 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9521C1C49C300F8F55C /* UIImage+Color.swift */; };
+		3A6E71E41C8BB3590012A086 /* BSCMusicItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B67B1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift */; };
+		3A6E71E51C8BB3590012A086 /* BSCMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9641C1C7F5300F8F55C /* BSCMusicPlayer.swift */; };
+		3A6E71E61C8BB3590012A086 /* BSCContainerViewControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CBCD11C159773009901D8 /* BSCContainerViewControllerSegue.swift */; };
+		3A6E71E71C8BB3590012A086 /* BSCSongContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5992FC1C72403B006FD38D /* BSCSongContext.swift */; };
+		3A6E71E81C8BB3590012A086 /* BSCMotionActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9397AA1C35697E0062F6AD /* BSCMotionActivityManager.swift */; };
+		3A6E71E91C8BB3590012A086 /* BSCMotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1821211C32889A00C21BDC /* BSCMotionContext.swift */; };
+		3A6E71EA1C8BB3590012A086 /* BSCWeatherContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26F1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift */; };
+		3A6E71EB1C8BB3590012A086 /* NSManagedObject+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18211D1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift */; };
+		3A6E71EC1C8BB3590012A086 /* BSCMusicLibraryBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E19871C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift */; };
+		3A6E71EE1C8BB3590012A086 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAE1A641C393F7C007E4D24 /* Security.framework */; };
+		3A6E71EF1C8BB3590012A086 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACAF91F1C3556B800783F6E /* SystemConfiguration.framework */; };
+		3A6E71F01C8BB3590012A086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A316C1C00C2DE00DE5B11 /* Foundation.framework */; };
+		3A6E71F11C8BB3590012A086 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A316E1C00C35900DE5B11 /* MediaPlayer.framework */; };
+		3A6E71F21C8BB3590012A086 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A09A1801C22EDB8006980C4 /* libPods.a */; };
+		3A6E71F31C8BB3590012A086 /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F031D1C79371600D8C3CA /* LNPopupController.framework */; };
+		3A6E71F51C8BB3590012A086 /* BSCTableViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3F1C20B9D500F67E7B /* BSCTableViewFooterView.xib */; };
+		3A6E71F71C8BB3590012A086 /* Recommendation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DA49B1C5A51D700811AA7 /* Recommendation.storyboard */; };
+		3A6E71F81C8BB3590012A086 /* BSCArtistAlbumHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3A1C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib */; };
+		3A6E71FA1C8BB3590012A086 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0FFB6E1C2EE59200798803 /* Debug.storyboard */; };
+		3A6E71FB1C8BB3590012A086 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A78A95E1C1C7B7B00F8F55C /* Localizable.strings */; };
+		3A6E71FC1C8BB3590012A086 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB381C20B9D500F67E7B /* Player.storyboard */; };
+		3A6E71FD1C8BB3590012A086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB49FDC1BF796BD00B6DC6F /* Assets.xcassets */; };
+		3A6E71FF1C8BB3590012A086 /* BSCMediaItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib */; };
+		3A6E72021C8BB3590012A086 /* BSCMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1821471C32BBCA00C21BDC /* BSCMapTableViewCell.xib */; };
+		3A6E72041C8BB3590012A086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB371C20B9D500F67E7B /* Main.storyboard */; };
+		3A6E72051C8BB3590012A086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB351C20B9D500F67E7B /* LaunchScreen.storyboard */; };
+		3A6E72061C8BB3590012A086 /* BSCMusicLibraryContainerTypeButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3D1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib */; };
+		3A6E720A1C8BB3590012A086 /* BSCMediaItemCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib */; };
+		3A6E72101C8BB3590012A086 /* BSCSongTimeSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3E1C20B9D500F67E7B /* BSCSongTimeSlider.xib */; };
+		3A6E72191C8BB3590012A086 /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB361C20B9D500F67E7B /* Library.storyboard */; };
+		3A6E721D1C8BB3590012A086 /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F031D1C79371600D8C3CA /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A6E723B1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E723A1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift */; };
+		3A6E723C1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E723A1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift */; };
+		3A6FCF481C201D1F0088A719 /* BSCMusicPlayerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCF471C201D1F0088A719 /* BSCMusicPlayerQueue.swift */; };
+		3A6FCF491C201D1F0088A719 /* BSCMusicPlayerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCF471C201D1F0088A719 /* BSCMusicPlayerQueue.swift */; };
+		3A78A9531C1C49C300F8F55C /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9521C1C49C300F8F55C /* UIImage+Color.swift */; };
+		3A78A9541C1C49C300F8F55C /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9521C1C49C300F8F55C /* UIImage+Color.swift */; };
+		3A78A9591C1C55DC00F8F55C /* BSCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9581C1C55DC00F8F55C /* BSCButton.swift */; };
+		3A78A95A1C1C55DC00F8F55C /* BSCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9581C1C55DC00F8F55C /* BSCButton.swift */; };
+		3A78A95C1C1C6FDE00F8F55C /* BSCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A95B1C1C6FDE00F8F55C /* BSCTableViewCell.swift */; };
+		3A78A95D1C1C6FDE00F8F55C /* BSCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A95B1C1C6FDE00F8F55C /* BSCTableViewCell.swift */; };
+		3A78A9601C1C7B7B00F8F55C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A78A95E1C1C7B7B00F8F55C /* Localizable.strings */; };
+		3A78A9611C1C7B7B00F8F55C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A78A95E1C1C7B7B00F8F55C /* Localizable.strings */; };
+		3A78A9651C1C7F5300F8F55C /* BSCMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9641C1C7F5300F8F55C /* BSCMusicPlayer.swift */; };
+		3A78A9661C1C7F5300F8F55C /* BSCMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9641C1C7F5300F8F55C /* BSCMusicPlayer.swift */; };
+		3A78A9681C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9671C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift */; };
+		3A78A9691C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A9671C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift */; };
+		3A78A96B1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A96A1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift */; };
+		3A78A96C1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78A96A1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift */; };
+		3A7A316D1C00C2DE00DE5B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A316C1C00C2DE00DE5B11 /* Foundation.framework */; };
+		3A7A316F1C00C35900DE5B11 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A316E1C00C35900DE5B11 /* MediaPlayer.framework */; };
+		3A7A31721C00C39B00DE5B11 /* BSCMusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31711C00C39B00DE5B11 /* BSCMusicLibraryManager.swift */; };
+		3A7A31731C00C39B00DE5B11 /* BSCMusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31711C00C39B00DE5B11 /* BSCMusicLibraryManager.swift */; };
+		3A7A31751C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31741C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift */; };
+		3A7A31761C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31741C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift */; };
+		3A7A31781C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31771C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift */; };
+		3A7A31791C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31771C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift */; };
+		3A7A317B1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A317A1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift */; };
+		3A7A317C1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A317A1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift */; };
+		3A7A31841C012B2800DE5B11 /* BSCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31831C012B2800DE5B11 /* BSCConstants.swift */; };
+		3A7A31851C012B2800DE5B11 /* BSCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A31831C012B2800DE5B11 /* BSCConstants.swift */; };
+		3A895DD81C340A4600E29E02 /* BSCLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A895DD71C340A4600E29E02 /* BSCLocationManager.swift */; };
+		3A895DD91C340A4600E29E02 /* BSCLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A895DD71C340A4600E29E02 /* BSCLocationManager.swift */; };
+		3A8AD2781C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26A1C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift */; };
+		3A8AD2791C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26A1C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift */; };
+		3A8AD27C1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26B1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift */; };
+		3A8AD27D1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26B1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift */; };
+		3A8AD2801C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26C1C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift */; };
+		3A8AD2811C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26C1C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift */; };
+		3A8AD2841C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26D1C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift */; };
+		3A8AD2851C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26D1C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift */; };
+		3A8AD2881C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26E1C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift */; };
+		3A8AD2891C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26E1C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift */; };
+		3A8AD28C1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26F1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift */; };
+		3A8AD28D1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD26F1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift */; };
+		3A8AD2911C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD2901C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift */; };
+		3A8AD2921C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD2901C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift */; };
+		3A8AD29B1C72212B008F11FD /* BSCSessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD29A1C72212B008F11FD /* BSCSessionContext.swift */; };
+		3A8AD29C1C72212B008F11FD /* BSCSessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8AD29A1C72212B008F11FD /* BSCSessionContext.swift */; };
+		3A8EA3911C2ACB8100C8D16C /* BSCPlaylogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA3901C2ACB8100C8D16C /* BSCPlaylogManager.swift */; };
+		3A8EA3921C2ACB8100C8D16C /* BSCPlaylogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA3901C2ACB8100C8D16C /* BSCPlaylogManager.swift */; };
+		3A90AA161C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90AA151C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift */; };
+		3A90AA171C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90AA151C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift */; };
+		3A90FD9F1C7892EA009DD843 /* BSCContextComparisonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90FD9D1C7892EA009DD843 /* BSCContextComparisonHelper.swift */; };
+		3A90FDA01C7892EA009DD843 /* BSCContextComparisonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90FD9D1C7892EA009DD843 /* BSCContextComparisonHelper.swift */; };
+		3A90FDA31C7892EA009DD843 /* BSCContextFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90FD9E1C7892EA009DD843 /* BSCContextFeature.swift */; };
+		3A90FDA41C7892EA009DD843 /* BSCContextFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90FD9E1C7892EA009DD843 /* BSCContextFeature.swift */; };
+		3A9397AB1C35697E0062F6AD /* BSCMotionActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9397AA1C35697E0062F6AD /* BSCMotionActivityManager.swift */; };
+		3A9397AC1C35697E0062F6AD /* BSCMotionActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9397AA1C35697E0062F6AD /* BSCMotionActivityManager.swift */; };
+		3A9618E61C1DBB6C00AD09C4 /* BSCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618E51C1DBB6C00AD09C4 /* BSCTabBarController.swift */; };
+		3A9618E71C1DBB6C00AD09C4 /* BSCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618E51C1DBB6C00AD09C4 /* BSCTabBarController.swift */; };
+		3A9618EC1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618EB1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift */; };
+		3A9618ED1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618EB1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift */; };
+		3A9618F01C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618EF1C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift */; };
+		3A9618F11C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9618EF1C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift */; };
+		3A9F031E1C79381E00D8C3CA /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F031D1C79371600D8C3CA /* LNPopupController.framework */; };
+		3A9F031F1C79381E00D8C3CA /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F031D1C79371600D8C3CA /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A9F03221C79382200D8C3CA /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F031D1C79371600D8C3CA /* LNPopupController.framework */; };
+		3A9F03231C79382200D8C3CA /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F031D1C79371600D8C3CA /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3AA246831C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA246821C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift */; };
+		3AA246841C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA246821C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift */; };
+		3AA448011C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448001C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift */; };
+		3AA448021C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448001C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift */; };
+		3AA448051C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448041C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift */; };
+		3AA448061C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448041C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift */; };
+		3AA448081C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448071C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift */; };
+		3AA448091C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA448071C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift */; };
+		3AAE1A651C393F7C007E4D24 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAE1A641C393F7C007E4D24 /* Security.framework */; };
+		3AAE1A671C393F88007E4D24 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAE1A641C393F7C007E4D24 /* Security.framework */; };
+		3AB311F31C0A0CBB00EB31B4 /* BSCGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB311F11C0A0CBB00EB31B4 /* BSCGenresViewController.swift */; };
+		3AB311F41C0A0CBB00EB31B4 /* BSCGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB311F11C0A0CBB00EB31B4 /* BSCGenresViewController.swift */; };
+		3AB49F7A1BF7914400B6DC6F /* BSCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F791BF7914400B6DC6F /* BSCAppDelegate.swift */; };
+		3AB49F851BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F831BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld */; };
+		3AB49F9E1BF7916700B6DC6F /* bachelorarbeit_prototypTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F981BF7916700B6DC6F /* bachelorarbeit_prototypTests.swift */; };
+		3AB49FA51BF7916700B6DC6F /* bachelorarbeit_prototypUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F9B1BF7916700B6DC6F /* bachelorarbeit_prototypUITests.swift */; };
+		3AB49FE11BF796BD00B6DC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB49FDC1BF796BD00B6DC6F /* Assets.xcassets */; };
+		3AB49FEA1BF7A71100B6DC6F /* BSCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F791BF7914400B6DC6F /* BSCAppDelegate.swift */; };
+		3AB49FEB1BF7A71100B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AB49F831BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld */; };
+		3AB49FF01BF7A71100B6DC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB49FDC1BF796BD00B6DC6F /* Assets.xcassets */; };
+		3ABC3D141C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC3D131C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m */; };
+		3ABC3D151C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC3D131C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m */; };
+		3AC445881C15939500D518BE /* BSCMusicLibraryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC445871C15939500D518BE /* BSCMusicLibraryContainerViewController.swift */; };
+		3AC445891C15939500D518BE /* BSCMusicLibraryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC445871C15939500D518BE /* BSCMusicLibraryContainerViewController.swift */; };
+		3ACAF91D1C35555F00783F6E /* BSCWifiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAF91C1C35555F00783F6E /* BSCWifiHelper.swift */; };
+		3ACAF91E1C35555F00783F6E /* BSCWifiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAF91C1C35555F00783F6E /* BSCWifiHelper.swift */; };
+		3ACAF9201C3556B800783F6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACAF91F1C3556B800783F6E /* SystemConfiguration.framework */; };
+		3ACAF9211C3556C600783F6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACAF91F1C3556B800783F6E /* SystemConfiguration.framework */; };
+		3AD5CFF81C4415A700A38570 /* BSCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5CFF71C4415A700A38570 /* BSCExtensions.swift */; };
+		3AD5CFF91C4415A700A38570 /* BSCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5CFF71C4415A700A38570 /* BSCExtensions.swift */; };
+		3AD5D00C1C4419DD00A38570 /* BSCWeatherContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D0071C4419DD00A38570 /* BSCWeatherContext.swift */; };
+		3AD5D00D1C4419DD00A38570 /* BSCWeatherContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D0071C4419DD00A38570 /* BSCWeatherContext.swift */; };
+		3AE2DB401C20B9D500F67E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB351C20B9D500F67E7B /* LaunchScreen.storyboard */; };
+		3AE2DB411C20B9D500F67E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB351C20B9D500F67E7B /* LaunchScreen.storyboard */; };
+		3AE2DB421C20B9D500F67E7B /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB361C20B9D500F67E7B /* Library.storyboard */; };
+		3AE2DB431C20B9D500F67E7B /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB361C20B9D500F67E7B /* Library.storyboard */; };
+		3AE2DB441C20B9D500F67E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB371C20B9D500F67E7B /* Main.storyboard */; };
+		3AE2DB451C20B9D500F67E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB371C20B9D500F67E7B /* Main.storyboard */; };
+		3AE2DB461C20B9D500F67E7B /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB381C20B9D500F67E7B /* Player.storyboard */; };
+		3AE2DB471C20B9D500F67E7B /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB381C20B9D500F67E7B /* Player.storyboard */; };
+		3AE2DB481C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3A1C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib */; };
+		3AE2DB491C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3A1C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib */; };
+		3AE2DB4A1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib */; };
+		3AE2DB4B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib */; };
+		3AE2DB4C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib */; };
+		3AE2DB4D1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib */; };
+		3AE2DB4E1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3D1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib */; };
+		3AE2DB4F1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3D1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib */; };
+		3AE2DB501C20B9D500F67E7B /* BSCSongTimeSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3E1C20B9D500F67E7B /* BSCSongTimeSlider.xib */; };
+		3AE2DB511C20B9D500F67E7B /* BSCSongTimeSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3E1C20B9D500F67E7B /* BSCSongTimeSlider.xib */; };
+		3AE2DB521C20B9D500F67E7B /* BSCTableViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3F1C20B9D500F67E7B /* BSCTableViewFooterView.xib */; };
+		3AE2DB531C20B9D500F67E7B /* BSCTableViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2DB3F1C20B9D500F67E7B /* BSCTableViewFooterView.xib */; };
+		3AE8C3E31C4B093000B8294B /* BSCLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C3E21C4B093000B8294B /* BSCLog.swift */; };
+		3AE8C3E41C4B093000B8294B /* BSCLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C3E21C4B093000B8294B /* BSCLog.swift */; };
+		3AE8C3EA1C4B18AE00B8294B /* BSCWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C3E91C4B18AE00B8294B /* BSCWeatherManager.swift */; };
+		3AE8C3EB1C4B18AE00B8294B /* BSCWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C3E91C4B18AE00B8294B /* BSCWeatherManager.swift */; };
+		3AE8E4191C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8E4181C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift */; };
+		3AE8E41A1C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8E4181C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift */; };
+		3AEF15981C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF15971C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift */; };
+		3AEF15991C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF15971C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift */; };
+		3AEF159C1C04BDB4006090D5 /* BSCPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF159A1C04BDB3006090D5 /* BSCPlaylistsViewController.swift */; };
+		3AEF159D1C04BDB4006090D5 /* BSCPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF159A1C04BDB3006090D5 /* BSCPlaylistsViewController.swift */; };
+		3AEF15A11C04CA6D006090D5 /* BSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF15A01C04CA6D006090D5 /* BSCViewController.swift */; };
+		3AEF15A21C04CA6D006090D5 /* BSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF15A01C04CA6D006090D5 /* BSCViewController.swift */; };
+		AD42741A8002FB21C4AE0945 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCAFF37190549B906E89A53 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A6E717C1C8BB3590012A086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB52E41B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+		3A9F031C1C79371600D8C3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39DB52E51B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+		3A9F03201C79381E00D8C3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB52E41B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+		3A9F03241C79382200D8C3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB52E41B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+		3AB49F5D1BF7904900B6DC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB49F3D1BF7904900B6DC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB49F441BF7904900B6DC6F;
+			remoteInfo = "bachelorarbeit-prototyp";
+		};
+		3AB49F681BF7904900B6DC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB49F3D1BF7904900B6DC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB49F441BF7904900B6DC6F;
+			remoteInfo = "bachelorarbeit-prototyp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A09A1771C22E9FD006980C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A9F03231C79382200D8C3CA /* LNPopupController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6E721C1C8BB3590012A086 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A6E721D1C8BB3590012A086 /* LNPopupController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9618E41C1DBAE600AD09C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A9F031F1C79381E00D8C3CA /* LNPopupController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36095734646DCA6E07865124 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3A02A8C51C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCContextComparisonTableViewCell.swift; path = Core/Views/Cells/BSCContextComparisonTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3A09A1801C22EDB8006980C4 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		3A0FB3EC1C60EDB200CB4C04 /* NSManagedObject+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Serialization.h"; sourceTree = "<group>"; };
+		3A0FB3ED1C60EDB200CB4C04 /* NSManagedObject+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Serialization.m"; sourceTree = "<group>"; };
+		3A0FB3F21C60EECC00CB4C04 /* BSCDebugTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCDebugTableViewController.swift; path = Debug/BSCDebugTableViewController.swift; sourceTree = "<group>"; };
+		3A0FFB651C2EE02800798803 /* BSCPlaylogSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlaylogSession.swift; path = Model/BSCPlaylogSession.swift; sourceTree = "<group>"; };
+		3A0FFB661C2EE02800798803 /* BSCPlaylogSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlaylogSong.swift; path = Model/BSCPlaylogSong.swift; sourceTree = "<group>"; };
+		3A0FFB671C2EE02800798803 /* BSCSongInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCSongInfo.swift; path = Model/BSCSongInfo.swift; sourceTree = "<group>"; };
+		3A0FFB6E1C2EE59200798803 /* Debug.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
+		3A18211D1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Bachelorarbeit.swift"; path = "Extensions/NSManagedObject+Bachelorarbeit.swift"; sourceTree = "<group>"; };
+		3A1821211C32889A00C21BDC /* BSCMotionContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMotionContext.swift; path = Model/BSCMotionContext.swift; sourceTree = "<group>"; };
+		3A1821221C32889A00C21BDC /* BSCContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCContext.swift; path = Model/BSCContext.swift; sourceTree = "<group>"; };
+		3A1821431C32A42C00C21BDC /* BSCContextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCContextManager.swift; path = Core/Helper/BSCContextManager/BSCContextManager.swift; sourceTree = SOURCE_ROOT; };
+		3A1821471C32BBCA00C21BDC /* BSCMapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCMapTableViewCell.xib; sourceTree = "<group>"; };
+		3A18214A1C32BC3200C21BDC /* BSCMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMapTableViewCell.swift; path = Core/Views/Cells/BSCMapTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3A2652D01C1973580042C243 /* BSCPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPreferences.swift; path = Core/Helper/BSCPreferences/BSCPreferences.swift; sourceTree = SOURCE_ROOT; };
+		3A2652ED1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCTableViewHeaderFooterView.swift; path = Core/Views/Cells/Base/BSCTableViewHeaderFooterView.swift; sourceTree = SOURCE_ROOT; };
+		3A2652F11C19B9830042C243 /* BSCHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCHelper.swift; path = Core/Helper/BSCHelper/BSCHelper.swift; sourceTree = SOURCE_ROOT; };
+		3A2652FE1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCArtistAlbumHeaderView.swift; path = Core/Views/Cells/BSCArtistAlbumHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		3A2E19871C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCMusicLibraryBaseViewController.swift; sourceTree = "<group>"; };
+		3A2E19881C048BD400D21E61 /* BSCAlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCAlbumsViewController.swift; sourceTree = "<group>"; };
+		3A2E19891C048BD400D21E61 /* BSCAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCAlbumViewController.swift; sourceTree = "<group>"; };
+		3A2E198A1C048BD400D21E61 /* BSCSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCSongsViewController.swift; sourceTree = "<group>"; };
+		3A2E19931C049A5900D21E61 /* BSCArtistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCArtistsViewController.swift; sourceTree = "<group>"; };
+		3A2E19941C049A5900D21E61 /* BSCArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCArtistViewController.swift; sourceTree = "<group>"; };
+		3A3912FC1C1EF3D700882068 /* BSCSongTimeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCSongTimeSlider.swift; path = Core/Views/BSCSongTimeSlider.swift; sourceTree = SOURCE_ROOT; };
+		3A42776B1C6BBB47006D5EEA /* bachelorarbeit_prototyp 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bachelorarbeit_prototyp 3.xcdatamodel"; sourceTree = "<group>"; };
+		3A43BA041C6132C200432A2E /* bachelorarbeit_prototyp 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bachelorarbeit_prototyp 2.xcdatamodel"; sourceTree = "<group>"; };
+		3A43BA051C61343700432A2E /* BSCLocationCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCLocationCoordinates.swift; path = Model/BSCLocationCoordinates.swift; sourceTree = "<group>"; };
+		3A49E3AC1C591F5500CE7F06 /* BSCRecommendationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationManager.swift; path = Core/Helper/BSCRecommendationManager/BSCRecommendationManager.swift; sourceTree = SOURCE_ROOT; };
+		3A53ED1E1C8E481F00A97F5D /* BSCRecommendationsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationsCell.swift; path = Core/Views/Cells/BSCRecommendationsCell.swift; sourceTree = SOURCE_ROOT; };
+		3A53ED211C8E485500A97F5D /* UIColor+BSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+BSC.swift"; path = "Core/Extensions/UIColor+BSC.swift"; sourceTree = SOURCE_ROOT; };
+		3A57B67B1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMusicItemTableViewCell.swift; path = Core/Views/Cells/BSCMusicItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3A57B6811C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MPMediaItem+Bachelorarbeit.swift"; path = "Core/Extensions/MPMediaItem+Bachelorarbeit.swift"; sourceTree = SOURCE_ROOT; };
+		3A57B69B1C03B77B00B1A507 /* BSCTableViewFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCTableViewFooterView.swift; path = Core/Views/BSCTableViewFooterView.swift; sourceTree = SOURCE_ROOT; };
+		3A5992F71C723DD3006FD38D /* BSCRecommendation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendation.swift; path = Core/Helper/BSCRecommendationManager/BSCRecommendation.swift; sourceTree = SOURCE_ROOT; };
+		3A5992FC1C72403B006FD38D /* BSCSongContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCSongContext.swift; path = Model/BSCSongContext.swift; sourceTree = "<group>"; };
+		3A5993011C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCSongContext+CoreDataProperties.swift"; path = "CoreDataProperties/BSCSongContext+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A5993161C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCSimilarContextsDebugViewController.swift; sourceTree = "<group>"; };
+		3A5993171C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCSimilarSessionContextsDebugViewController.swift; sourceTree = "<group>"; };
+		3A5993181C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCSimilarSongContextsDebugViewController.swift; sourceTree = "<group>"; };
+		3A5993261C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextComparisonDebugViewController.swift; sourceTree = "<group>"; };
+		3A5993281C7248E5006FD38D /* BSCContextDetailDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextDetailDebugViewController.swift; sourceTree = "<group>"; };
+		3A5993291C7248E5006FD38D /* BSCContextDetailRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextDetailRows.swift; sourceTree = "<group>"; };
+		3A59932A1C7248E5006FD38D /* BSCContextDetailSections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextDetailSections.swift; sourceTree = "<group>"; };
+		3A59932C1C7248E5006FD38D /* BSCContextsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextsDebugViewController.swift; sourceTree = "<group>"; };
+		3A59932D1C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCSessionContextsDebugViewController.swift; sourceTree = "<group>"; };
+		3A59932E1C7248E5006FD38D /* BSCSongContextsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCSongContextsDebugViewController.swift; sourceTree = "<group>"; };
+		3A59934B1C724901006FD38D /* BSCContextPickerDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextPickerDebugViewController.swift; sourceTree = "<group>"; };
+		3A5FB5F01C8E181D002F7CE5 /* bachelorarbeit_prototyp 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bachelorarbeit_prototyp 5.xcdatamodel"; sourceTree = "<group>"; };
+		3A6CBCD11C159773009901D8 /* BSCContainerViewControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCContainerViewControllerSegue.swift; path = Core/Helper/BSCContainerViewController/BSCContainerViewControllerSegue.swift; sourceTree = SOURCE_ROOT; };
+		3A6CBCD41C1597F6009901D8 /* BSCContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCContainerViewController.swift; path = Core/Helper/BSCContainerViewController/BSCContainerViewController.swift; sourceTree = SOURCE_ROOT; };
+		3A6CBCD81C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMusicLibraryContainerTypeButtonView.swift; path = Core/Views/BSCMusicLibraryContainerTypeButtonView.swift; sourceTree = SOURCE_ROOT; };
+		3A6CBCDE1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMediaTypeSwitcherView.swift; path = Core/Views/BSCMediaTypeSwitcherView.swift; sourceTree = SOURCE_ROOT; };
+		3A6D30B91C6CCF4300D6BF62 /* NSDate+Rounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Rounded.swift"; path = "Core/Extensions/NSDate+Rounded.swift"; sourceTree = SOURCE_ROOT; };
+		3A6DA49B1C5A51D700811AA7 /* Recommendation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Recommendation.storyboard; sourceTree = "<group>"; };
+		3A6DA4A01C5A575A00811AA7 /* BSCRecommendationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationsViewController.swift; path = Recommendation/BSCRecommendationsViewController.swift; sourceTree = "<group>"; };
+		3A6DA4A61C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationsCollectionViewDataSource.swift; path = Core/Controller/Recommendation/BSCRecommendationsCollectionViewDataSource.swift; sourceTree = SOURCE_ROOT; };
+		3A6DA4B01C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationCollectionViewCell.swift; path = Core/Views/Cells/BSCRecommendationCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3A6DA4B51C5B63F200811AA7 /* BSCRecommendationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationViewController.swift; path = Recommendation/BSCRecommendationViewController.swift; sourceTree = "<group>"; };
+		3A6DA4BA1C5B6D2E00811AA7 /* BSCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMapView.swift; path = Core/Views/BSCMapView.swift; sourceTree = SOURCE_ROOT; };
+		3A6E72211C8BB3590012A086 /* bachelorarbeit-prototyp-normal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bachelorarbeit-prototyp-normal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6E72251C8BBA8A0012A086 /* bachelorarbeit-prototyp-internal-alpha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "bachelorarbeit-prototyp-internal-alpha.entitlements"; sourceTree = "<group>"; };
+		3A6E72261C8BBA8A0012A086 /* bachelorarbeit-prototyp-internal-beta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "bachelorarbeit-prototyp-internal-beta.entitlements"; sourceTree = "<group>"; };
+		3A6E72271C8BBA8A0012A086 /* bachelorarbeit-prototyp-normal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "bachelorarbeit-prototyp-normal.entitlements"; sourceTree = "<group>"; };
+		3A6E72281C8BBA8A0012A086 /* prototyp-internal-alpha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prototyp-internal-alpha-Info.plist"; sourceTree = "<group>"; };
+		3A6E72291C8BBA8A0012A086 /* prototyp-internal-beta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prototyp-internal-beta-Info.plist"; sourceTree = "<group>"; };
+		3A6E722A1C8BBA8A0012A086 /* prototyp-normal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "prototyp-normal-Info.plist"; sourceTree = "<group>"; };
+		3A6E723A1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationHeaderCell.swift; path = Core/Views/Cells/BSCRecommendationHeaderCell.swift; sourceTree = SOURCE_ROOT; };
+		3A6FCF471C201D1F0088A719 /* BSCMusicPlayerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCMusicPlayerQueue.swift; sourceTree = "<group>"; };
+		3A78A9521C1C49C300F8F55C /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Color.swift"; path = "Core/Extensions/UIImage+Color.swift"; sourceTree = SOURCE_ROOT; };
+		3A78A9581C1C55DC00F8F55C /* BSCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCButton.swift; path = Core/Views/BSCButton.swift; sourceTree = SOURCE_ROOT; };
+		3A78A95B1C1C6FDE00F8F55C /* BSCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCTableViewCell.swift; path = Core/Views/Cells/Base/BSCTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3A78A9621C1C7B8E00F8F55C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A78A9641C1C7F5300F8F55C /* BSCMusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCMusicPlayer.swift; sourceTree = "<group>"; };
+		3A78A9671C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCMusicPlayerItem.swift; sourceTree = "<group>"; };
+		3A78A96A1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BSCMusicPlayer+MPMediaItem.swift"; sourceTree = "<group>"; };
+		3A7A316A1C00C2C100DE5B11 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A7A316C1C00C2DE00DE5B11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A7A316E1C00C35900DE5B11 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3A7A31711C00C39B00DE5B11 /* BSCMusicLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMusicLibraryManager.swift; path = Core/Helper/BSCMusicLibraryManager/BSCMusicLibraryManager.swift; sourceTree = SOURCE_ROOT; };
+		3A7A31741C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMusicLibraryManagerConstants.swift; path = Core/Helper/BSCMusicLibraryManager/BSCMusicLibraryManagerConstants.swift; sourceTree = SOURCE_ROOT; };
+		3A7A31771C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MPMediaItemCollection+BSCMusicLibraryManager.swift"; path = "Core/Helper/BSCMusicLibraryManager/MPMediaItemCollection+BSCMusicLibraryManager.swift"; sourceTree = SOURCE_ROOT; };
+		3A7A317A1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMusicCollectionTableViewCell.swift; path = Core/Views/Cells/BSCMusicCollectionTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3A7A31831C012B2800DE5B11 /* BSCConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCConstants.swift; path = Core/BSCConstants.swift; sourceTree = SOURCE_ROOT; };
+		3A895DD71C340A4600E29E02 /* BSCLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCLocationManager.swift; path = Core/Helper/BSCLocationManager/BSCLocationManager.swift; sourceTree = SOURCE_ROOT; };
+		3A8AD2671C720754008F11FD /* bachelorarbeit_prototyp 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "bachelorarbeit_prototyp 4.xcdatamodel"; sourceTree = "<group>"; };
+		3A8AD2681C72090A008F11FD /* BSCContext+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCContext+CoreDataProperties.swift"; path = "CoreDataProperties/BSCContext+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD26A1C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCLocationCoordinates+CoreDataProperties.swift"; path = "CoreDataProperties/BSCLocationCoordinates+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD26B1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCMotionContext+CoreDataProperties.swift"; path = "CoreDataProperties/BSCMotionContext+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD26C1C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCPlaylogSession+CoreDataProperties.swift"; path = "CoreDataProperties/BSCPlaylogSession+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD26D1C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCPlaylogSong+CoreDataProperties.swift"; path = "CoreDataProperties/BSCPlaylogSong+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD26E1C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCSongInfo+CoreDataProperties.swift"; path = "CoreDataProperties/BSCSongInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD26F1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCWeatherContext+CoreDataProperties.swift"; path = "CoreDataProperties/BSCWeatherContext+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD2901C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BSCSessionContext+CoreDataProperties.swift"; path = "CoreDataProperties/BSCSessionContext+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A8AD29A1C72212B008F11FD /* BSCSessionContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCSessionContext.swift; path = Model/BSCSessionContext.swift; sourceTree = "<group>"; };
+		3A8EA3901C2ACB8100C8D16C /* BSCPlaylogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlaylogManager.swift; path = Core/Helper/BSCPlaylogManager/BSCPlaylogManager.swift; sourceTree = SOURCE_ROOT; };
+		3A90AA151C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCNavigationControllerViewController.swift; path = Base/BSCNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		3A90FD9D1C7892EA009DD843 /* BSCContextComparisonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextComparisonHelper.swift; sourceTree = "<group>"; };
+		3A90FD9E1C7892EA009DD843 /* BSCContextFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCContextFeature.swift; sourceTree = "<group>"; };
+		3A9397AA1C35697E0062F6AD /* BSCMotionActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCMotionActivityManager.swift; path = Core/Helper/BSCMotionActivityManager/BSCMotionActivityManager.swift; sourceTree = SOURCE_ROOT; };
+		3A9618E51C1DBB6C00AD09C4 /* BSCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCTabBarController.swift; path = Base/BSCTabBarController.swift; sourceTree = "<group>"; };
+		3A9618EB1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlayerViewController.swift; path = Player/BSCPlayerViewController.swift; sourceTree = "<group>"; };
+		3A9618EF1C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Bachelorarbeit.swift"; path = "Core/Extensions/UIStoryboard+Bachelorarbeit.swift"; sourceTree = SOURCE_ROOT; };
+		3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LNPopupController.xcodeproj; path = LNPopupController/LNPopupController/LNPopupController.xcodeproj; sourceTree = "<group>"; };
+		3AA246821C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCContextDetailTableViewCell.swift; path = Core/Views/Cells/BSCContextDetailTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3AA448001C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlaylogSessionsDebugViewController.swift; path = Debug/Playlog/BSCPlaylogSessionsDebugViewController.swift; sourceTree = "<group>"; };
+		3AA448041C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlaylogSongsDebugViewController.swift; path = Debug/Playlog/BSCPlaylogSongsDebugViewController.swift; sourceTree = "<group>"; };
+		3AA448071C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCFetchedResultsTableViewController.swift; path = Base/BSCFetchedResultsTableViewController.swift; sourceTree = "<group>"; };
+		3AAE1A641C393F7C007E4D24 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3AB311F11C0A0CBB00EB31B4 /* BSCGenresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCGenresViewController.swift; sourceTree = "<group>"; };
+		3AB49F451BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bachelorarbeit-prototyp-internal-alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB49F5C1BF7904900B6DC6F /* bachelorarbeit-prototyp-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bachelorarbeit-prototyp-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB49F671BF7904900B6DC6F /* bachelorarbeit-prototyp-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bachelorarbeit-prototyp-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB49F791BF7914400B6DC6F /* BSCAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCAppDelegate.swift; path = Core/BSCAppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3AB49F841BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bachelorarbeit_prototyp.xcdatamodel; sourceTree = "<group>"; };
+		3AB49F981BF7916700B6DC6F /* bachelorarbeit_prototypTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bachelorarbeit_prototypTests.swift; sourceTree = "<group>"; };
+		3AB49F991BF7916700B6DC6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB49F9B1BF7916700B6DC6F /* bachelorarbeit_prototypUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bachelorarbeit_prototypUITests.swift; sourceTree = "<group>"; };
+		3AB49F9C1BF7916700B6DC6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB49FDC1BF796BD00B6DC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB49FF71BF7A71100B6DC6F /* bachelorarbeit-prototyp-internal-beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bachelorarbeit-prototyp-internal-beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB49FFB1BF7A7D700B6DC6F /* bachelorarbeit-prototyp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bachelorarbeit-prototyp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3ABC3D121C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+ADVCopying.h"; sourceTree = "<group>"; };
+		3ABC3D131C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+ADVCopying.m"; sourceTree = "<group>"; };
+		3AC445871C15939500D518BE /* BSCMusicLibraryContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCMusicLibraryContainerViewController.swift; sourceTree = "<group>"; };
+		3ACAF91C1C35555F00783F6E /* BSCWifiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCWifiHelper.swift; sourceTree = "<group>"; };
+		3ACAF91F1C3556B800783F6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3AD5CFF71C4415A700A38570 /* BSCExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCExtensions.swift; path = Core/Extensions/BSCExtensions.swift; sourceTree = SOURCE_ROOT; };
+		3AD5D0071C4419DD00A38570 /* BSCWeatherContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCWeatherContext.swift; path = Model/BSCWeatherContext.swift; sourceTree = "<group>"; };
+		3AE2DB351C20B9D500F67E7B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE2DB361C20B9D500F67E7B /* Library.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
+		3AE2DB371C20B9D500F67E7B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3AE2DB381C20B9D500F67E7B /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		3AE2DB3A1C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCArtistAlbumHeaderView.xib; sourceTree = "<group>"; };
+		3AE2DB3B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCMediaItemCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		3AE2DB3C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCMediaItemTableViewCell.xib; sourceTree = "<group>"; };
+		3AE2DB3D1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCMusicLibraryContainerTypeButtonView.xib; sourceTree = "<group>"; };
+		3AE2DB3E1C20B9D500F67E7B /* BSCSongTimeSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCSongTimeSlider.xib; sourceTree = "<group>"; };
+		3AE2DB3F1C20B9D500F67E7B /* BSCTableViewFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCTableViewFooterView.xib; sourceTree = "<group>"; };
+		3AE8C3E21C4B093000B8294B /* BSCLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCLog.swift; path = Core/Helper/BSCLog/BSCLog.swift; sourceTree = SOURCE_ROOT; };
+		3AE8C3E91C4B18AE00B8294B /* BSCWeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCWeatherManager.swift; path = Core/Helper/BSCWeatherManager/BSCWeatherManager.swift; sourceTree = SOURCE_ROOT; };
+		3AE8E4181C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCRecommendationHeaderTableViewDataSource.swift; path = Recommendation/BSCRecommendationHeaderTableViewDataSource.swift; sourceTree = "<group>"; };
+		3AEF15971C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MPMediaItemCollection+Bachelorarbeit.swift"; path = "Core/Extensions/MPMediaItemCollection+Bachelorarbeit.swift"; sourceTree = SOURCE_ROOT; };
+		3AEF159A1C04BDB3006090D5 /* BSCPlaylistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCPlaylistsViewController.swift; path = Core/Controller/MusicLibrary/BSCPlaylistsViewController.swift; sourceTree = SOURCE_ROOT; };
+		3AEF15A01C04CA6D006090D5 /* BSCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCViewController.swift; path = Base/BSCViewController.swift; sourceTree = "<group>"; };
+		3FBABB79C78DBFB553216BD5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6DCAFF37190549B906E89A53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A6E71ED1C8BB3590012A086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6E71EE1C8BB3590012A086 /* Security.framework in Frameworks */,
+				3A6E71EF1C8BB3590012A086 /* SystemConfiguration.framework in Frameworks */,
+				3A6E71F01C8BB3590012A086 /* Foundation.framework in Frameworks */,
+				3A6E71F11C8BB3590012A086 /* MediaPlayer.framework in Frameworks */,
+				3A6E71F21C8BB3590012A086 /* libPods.a in Frameworks */,
+				3A6E71F31C8BB3590012A086 /* LNPopupController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F421BF7904900B6DC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAE1A671C393F88007E4D24 /* Security.framework in Frameworks */,
+				3ACAF9211C3556C600783F6E /* SystemConfiguration.framework in Frameworks */,
+				3A7A316F1C00C35900DE5B11 /* MediaPlayer.framework in Frameworks */,
+				3A7A316D1C00C2DE00DE5B11 /* Foundation.framework in Frameworks */,
+				AD42741A8002FB21C4AE0945 /* libPods.a in Frameworks */,
+				3A9F031E1C79381E00D8C3CA /* LNPopupController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F591BF7904900B6DC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F641BF7904900B6DC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49FEC1BF7A71100B6DC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAE1A651C393F7C007E4D24 /* Security.framework in Frameworks */,
+				3ACAF9201C3556B800783F6E /* SystemConfiguration.framework in Frameworks */,
+				3A09A17F1C22EDB2006980C4 /* Foundation.framework in Frameworks */,
+				3A09A17E1C22ED7D006980C4 /* MediaPlayer.framework in Frameworks */,
+				3A09A1811C22EDB8006980C4 /* libPods.a in Frameworks */,
+				3A9F03221C79382200D8C3CA /* LNPopupController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0FB3EB1C60EDB200CB4C04 /* NSManagedObject+Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				3A0FB3EC1C60EDB200CB4C04 /* NSManagedObject+Serialization.h */,
+				3A0FB3ED1C60EDB200CB4C04 /* NSManagedObject+Serialization.m */,
+			);
+			path = "NSManagedObject+Serialization";
+			sourceTree = "<group>";
+		};
+		3A0FFB711C2EE5CA00798803 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				3AA447FF1C2EEAF700FC43DE /* Playlog */,
+				3A1821411C32981000C21BDC /* Context */,
+				3A0FB3F21C60EECC00CB4C04 /* BSCDebugTableViewController.swift */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		3A1821411C32981000C21BDC /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				3A5993251C7248E5006FD38D /* Comparison */,
+				3A5993271C7248E5006FD38D /* Detail */,
+				3A59932B1C7248E5006FD38D /* Lists */,
+				3A5993151C72486C006FD38D /* Similar Contexts */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		3A1821421C32A40F00C21BDC /* BSCPlaylogManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A8EA3901C2ACB8100C8D16C /* BSCPlaylogManager.swift */,
+			);
+			name = BSCPlaylogManager;
+			sourceTree = "<group>";
+		};
+		3A1821461C32A43000C21BDC /* BSCContextManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A1821431C32A42C00C21BDC /* BSCContextManager.swift */,
+			);
+			name = BSCContextManager;
+			sourceTree = "<group>";
+		};
+		3A2652D31C1973640042C243 /* BSCPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				3A2652D01C1973580042C243 /* BSCPreferences.swift */,
+			);
+			name = BSCPreferences;
+			sourceTree = "<group>";
+		};
+		3A2652F01C19B9530042C243 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3A57B69B1C03B77B00B1A507 /* BSCTableViewFooterView.swift */,
+				3A78A95B1C1C6FDE00F8F55C /* BSCTableViewCell.swift */,
+				3A2652ED1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3A2652F41C19B9870042C243 /* BSCHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3A2652F11C19B9830042C243 /* BSCHelper.swift */,
+			);
+			name = BSCHelper;
+			sourceTree = "<group>";
+		};
+		3A2E19851C048BD400D21E61 /* MusicLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3A2E19861C048BD400D21E61 /* Base */,
+				3AC445871C15939500D518BE /* BSCMusicLibraryContainerViewController.swift */,
+				3A2E19891C048BD400D21E61 /* BSCAlbumViewController.swift */,
+				3A2E19881C048BD400D21E61 /* BSCAlbumsViewController.swift */,
+				3A2E19931C049A5900D21E61 /* BSCArtistsViewController.swift */,
+				3A2E19941C049A5900D21E61 /* BSCArtistViewController.swift */,
+				3AB311F11C0A0CBB00EB31B4 /* BSCGenresViewController.swift */,
+				3AEF159A1C04BDB3006090D5 /* BSCPlaylistsViewController.swift */,
+				3A2E198A1C048BD400D21E61 /* BSCSongsViewController.swift */,
+			);
+			path = MusicLibrary;
+			sourceTree = "<group>";
+		};
+		3A2E19861C048BD400D21E61 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3A2E19871C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3A49E3AB1C591EB200CE7F06 /* BSCRecommendationManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A49E3AC1C591F5500CE7F06 /* BSCRecommendationManager.swift */,
+				3A5992F71C723DD3006FD38D /* BSCRecommendation.swift */,
+			);
+			name = BSCRecommendationManager;
+			sourceTree = "<group>";
+		};
+		3A57B6791C033F5F00B1A507 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AA448031C2EEB7000FC43DE /* Debug */,
+				3AFB4D0A1C1F714F00FB7BFB /* Base */,
+				3AFB4D091C1F714800FB7BFB /* Player */,
+				3A57B67A1C033F6C00B1A507 /* Cells */,
+				3A6CBCD81C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift */,
+				3A6CBCDE1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift */,
+				3A6DA4BA1C5B6D2E00811AA7 /* BSCMapView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3A57B67A1C033F6C00B1A507 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A2652F01C19B9530042C243 /* Base */,
+				3A7A317A1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift */,
+				3A57B67B1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift */,
+				3A2652FE1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift */,
+				3A18214A1C32BC3200C21BDC /* BSCMapTableViewCell.swift */,
+				3A02A8C51C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift */,
+				3AA246821C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift */,
+				3A53ED1E1C8E481F00A97F5D /* BSCRecommendationsCell.swift */,
+				3A6DA4B01C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift */,
+				3A6E723A1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3A57B6841C0344DE00B1A507 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A57B6811C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift */,
+				3A53ED211C8E485500A97F5D /* UIColor+BSC.swift */,
+				3AEF15971C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift */,
+				3A78A9521C1C49C300F8F55C /* UIImage+Color.swift */,
+				3A9618EF1C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift */,
+				3AD5CFF71C4415A700A38570 /* BSCExtensions.swift */,
+				3A6D30B91C6CCF4300D6BF62 /* NSDate+Rounded.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3A5993151C72486C006FD38D /* Similar Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				3A5993161C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift */,
+				3A5993171C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift */,
+				3A5993181C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift */,
+			);
+			name = "Similar Contexts";
+			path = "Debug/Context/Similar Contexts";
+			sourceTree = "<group>";
+		};
+		3A5993251C7248E5006FD38D /* Comparison */ = {
+			isa = PBXGroup;
+			children = (
+				3A5993261C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift */,
+			);
+			name = Comparison;
+			path = Debug/Context/Comparison;
+			sourceTree = "<group>";
+		};
+		3A5993271C7248E5006FD38D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3A5993281C7248E5006FD38D /* BSCContextDetailDebugViewController.swift */,
+				3A5993291C7248E5006FD38D /* BSCContextDetailRows.swift */,
+				3A59932A1C7248E5006FD38D /* BSCContextDetailSections.swift */,
+			);
+			name = Detail;
+			path = Debug/Context/Detail;
+			sourceTree = "<group>";
+		};
+		3A59932B1C7248E5006FD38D /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				3A59934B1C724901006FD38D /* BSCContextPickerDebugViewController.swift */,
+				3A59932C1C7248E5006FD38D /* BSCContextsDebugViewController.swift */,
+				3A59932D1C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift */,
+				3A59932E1C7248E5006FD38D /* BSCSongContextsDebugViewController.swift */,
+			);
+			name = Lists;
+			path = Debug/Context/Lists;
+			sourceTree = "<group>";
+		};
+		3A6CBCD71C159800009901D8 /* BSCContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A6CBCD11C159773009901D8 /* BSCContainerViewControllerSegue.swift */,
+				3A6CBCD41C1597F6009901D8 /* BSCContainerViewController.swift */,
+			);
+			name = BSCContainerViewController;
+			sourceTree = "<group>";
+		};
+		3A6DA4A51C5A575F00811AA7 /* Recommendation */ = {
+			isa = PBXGroup;
+			children = (
+				3A6DA4A61C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift */,
+				3A6DA4A01C5A575A00811AA7 /* BSCRecommendationsViewController.swift */,
+				3A6DA4B51C5B63F200811AA7 /* BSCRecommendationViewController.swift */,
+				3AE8E4181C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift */,
+			);
+			name = Recommendation;
+			sourceTree = "<group>";
+		};
+		3A78A9631C1C7F5300F8F55C /* BSCMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3A78A9641C1C7F5300F8F55C /* BSCMusicPlayer.swift */,
+				3A78A96A1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift */,
+				3A78A9671C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift */,
+				3A6FCF471C201D1F0088A719 /* BSCMusicPlayerQueue.swift */,
+			);
+			name = BSCMusicPlayer;
+			path = Core/Helper/BSCMusicPlayer;
+			sourceTree = SOURCE_ROOT;
+		};
+		3A7A31691C00C23F00DE5B11 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3A78A9631C1C7F5300F8F55C /* BSCMusicPlayer */,
+				3A7A31701C00C37E00DE5B11 /* BSCMusicLibraryManager */,
+				3A6CBCD71C159800009901D8 /* BSCContainerViewController */,
+				3A2652D31C1973640042C243 /* BSCPreferences */,
+				3A2652F41C19B9870042C243 /* BSCHelper */,
+				3A1821421C32A40F00C21BDC /* BSCPlaylogManager */,
+				3A895DDA1C340A4B00E29E02 /* BSCLocationManager */,
+				3ACAF91A1C35555F00783F6E /* BSCWifiHelper */,
+				3A1821461C32A43000C21BDC /* BSCContextManager */,
+				3A90FD9C1C7892EA009DD843 /* BSCContextComparisonHelper */,
+				3A9397AD1C3569850062F6AD /* BSCMotionActivityManager */,
+				3A7A94EA1C370D6D0092543B /* BSCWeatherManager */,
+				3AE8C3E71C4B093400B8294B /* BSCLog */,
+				3A49E3AB1C591EB200CE7F06 /* BSCRecommendationManager */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		3A7A31701C00C37E00DE5B11 /* BSCMusicLibraryManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A31711C00C39B00DE5B11 /* BSCMusicLibraryManager.swift */,
+				3A7A31771C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift */,
+				3A7A31741C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift */,
+			);
+			name = BSCMusicLibraryManager;
+			sourceTree = "<group>";
+		};
+		3A7A94EA1C370D6D0092543B /* BSCWeatherManager */ = {
+			isa = PBXGroup;
+			children = (
+				3AE8C3E91C4B18AE00B8294B /* BSCWeatherManager.swift */,
+			);
+			name = BSCWeatherManager;
+			sourceTree = "<group>";
+		};
+		3A7DD9F41C16205D00BDD2AE /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3A0FB3EB1C60EDB200CB4C04 /* NSManagedObject+Serialization */,
+				3ABC3D111C3E8EAE00AE0630 /* NSManagedObject+ADVCopying */,
+				3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		3A895DDA1C340A4B00E29E02 /* BSCLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A895DD71C340A4600E29E02 /* BSCLocationManager.swift */,
+			);
+			name = BSCLocationManager;
+			sourceTree = "<group>";
+		};
+		3A8EA38E1C2ACADE00C8D16C /* CoreDataProperties */ = {
+			isa = PBXGroup;
+			children = (
+				3A8AD2901C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift */,
+				3A8AD2681C72090A008F11FD /* BSCContext+CoreDataProperties.swift */,
+				3A8AD26A1C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift */,
+				3A8AD26B1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift */,
+				3A8AD26C1C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift */,
+				3A8AD26D1C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift */,
+				3A8AD26E1C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift */,
+				3A8AD26F1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift */,
+				3A5993011C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift */,
+			);
+			name = CoreDataProperties;
+			sourceTree = "<group>";
+		};
+		3A8EA38F1C2ACAE800C8D16C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A1821221C32889A00C21BDC /* BSCContext.swift */,
+				3A1821211C32889A00C21BDC /* BSCMotionContext.swift */,
+				3A0FFB651C2EE02800798803 /* BSCPlaylogSession.swift */,
+				3A0FFB661C2EE02800798803 /* BSCPlaylogSong.swift */,
+				3A0FFB671C2EE02800798803 /* BSCSongInfo.swift */,
+				3AD5D0071C4419DD00A38570 /* BSCWeatherContext.swift */,
+				3A43BA051C61343700432A2E /* BSCLocationCoordinates.swift */,
+				3A8AD29A1C72212B008F11FD /* BSCSessionContext.swift */,
+				3A5992FC1C72403B006FD38D /* BSCSongContext.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3A8EA3971C2AE69200C8D16C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A18211D1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3A90FD9C1C7892EA009DD843 /* BSCContextComparisonHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3A90FD9D1C7892EA009DD843 /* BSCContextComparisonHelper.swift */,
+				3A90FD9E1C7892EA009DD843 /* BSCContextFeature.swift */,
+			);
+			name = BSCContextComparisonHelper;
+			path = Core/Helper/BSCContextComparisonHelper;
+			sourceTree = SOURCE_ROOT;
+		};
+		3A9397AD1C3569850062F6AD /* BSCMotionActivityManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A9397AA1C35697E0062F6AD /* BSCMotionActivityManager.swift */,
+			);
+			name = BSCMotionActivityManager;
+			sourceTree = "<group>";
+		};
+		3A9618EE1C1DBC6E00AD09C4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				3A9618EB1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		3A9F03191C79371600D8C3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F031D1C79371600D8C3CA /* LNPopupController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA447FF1C2EEAF700FC43DE /* Playlog */ = {
+			isa = PBXGroup;
+			children = (
+				3AA448001C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift */,
+				3AA448041C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift */,
+			);
+			name = Playlog;
+			sourceTree = "<group>";
+		};
+		3AA448031C2EEB7000FC43DE /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		3AB49F3C1BF7904900B6DC6F = {
+			isa = PBXGroup;
+			children = (
+				3AB49F471BF7904900B6DC6F /* Core */,
+				3A7DD9F41C16205D00BDD2AE /* External */,
+				3AB49F971BF7916700B6DC6F /* Tests */,
+				3AB49F9A1BF7916700B6DC6F /* UITests */,
+				3AB49F461BF7904900B6DC6F /* Products */,
+				AB2B2989CD9709B815FD498A /* Pods */,
+				5A52BE5BCD10E893B0A1FB25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB49F461BF7904900B6DC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB49F451BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha.app */,
+				3AB49F5C1BF7904900B6DC6F /* bachelorarbeit-prototyp-Tests.xctest */,
+				3AB49F671BF7904900B6DC6F /* bachelorarbeit-prototyp-UITests.xctest */,
+				3AB49FF71BF7A71100B6DC6F /* bachelorarbeit-prototyp-internal-beta.app */,
+				3A6E72211C8BB3590012A086 /* bachelorarbeit-prototyp-normal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB49F471BF7904900B6DC6F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A57B6841C0344DE00B1A507 /* Extensions */,
+				3A7A31691C00C23F00DE5B11 /* Helper */,
+				3AB49F821BF7915000B6DC6F /* Database */,
+				3AB49F7D1BF7914B00B6DC6F /* Controller */,
+				3A57B6791C033F5F00B1A507 /* Views */,
+				3AB49FDB1BF796BD00B6DC6F /* Resources */,
+				3AB49FE41BF796C600B6DC6F /* PLists */,
+				3AB49FFA1BF7A7D700B6DC6F /* SupportingFiles */,
+				3AB49F791BF7914400B6DC6F /* BSCAppDelegate.swift */,
+				3A7A31831C012B2800DE5B11 /* BSCConstants.swift */,
+			);
+			name = Core;
+			path = "bachelorarbeit-prototyp";
+			sourceTree = "<group>";
+		};
+		3AB49F7D1BF7914B00B6DC6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A0FFB711C2EE5CA00798803 /* Debug */,
+				3AEF15A31C04CF9C006090D5 /* Base */,
+				3A2E19851C048BD400D21E61 /* MusicLibrary */,
+				3A9618EE1C1DBC6E00AD09C4 /* Player */,
+				3A6DA4A51C5A575F00811AA7 /* Recommendation */,
+			);
+			name = Controller;
+			path = Core/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AB49F821BF7915000B6DC6F /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				3A8EA38E1C2ACADE00C8D16C /* CoreDataProperties */,
+				3A8EA38F1C2ACAE800C8D16C /* Model */,
+				3AB49F831BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld */,
+				3A8EA3971C2AE69200C8D16C /* Extensions */,
+			);
+			name = Database;
+			path = Core/Database;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AB49F971BF7916700B6DC6F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB49F981BF7916700B6DC6F /* bachelorarbeit_prototypTests.swift */,
+				3AB49F991BF7916700B6DC6F /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3AB49F9A1BF7916700B6DC6F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB49F9B1BF7916700B6DC6F /* bachelorarbeit_prototypUITests.swift */,
+				3AB49F9C1BF7916700B6DC6F /* Info.plist */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		3AB49FDB1BF796BD00B6DC6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2DB341C20B9D500F67E7B /* Controller */,
+				3AE2DB391C20B9D500F67E7B /* Views */,
+				3AB49FDC1BF796BD00B6DC6F /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = Core/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AB49FE41BF796C600B6DC6F /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				3A6E72251C8BBA8A0012A086 /* bachelorarbeit-prototyp-internal-alpha.entitlements */,
+				3A6E72261C8BBA8A0012A086 /* bachelorarbeit-prototyp-internal-beta.entitlements */,
+				3A6E72271C8BBA8A0012A086 /* bachelorarbeit-prototyp-normal.entitlements */,
+				3A6E72281C8BBA8A0012A086 /* prototyp-internal-alpha-Info.plist */,
+				3A6E72291C8BBA8A0012A086 /* prototyp-internal-beta-Info.plist */,
+				3A6E722A1C8BBA8A0012A086 /* prototyp-normal-Info.plist */,
+			);
+			name = PLists;
+			path = Core/PLists;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AB49FFA1BF7A7D700B6DC6F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3A78A95E1C1C7B7B00F8F55C /* Localizable.strings */,
+				3AB49FFB1BF7A7D700B6DC6F /* bachelorarbeit-prototyp-Bridging-Header.h */,
+			);
+			name = SupportingFiles;
+			path = Core/SupportingFiles;
+			sourceTree = SOURCE_ROOT;
+		};
+		3ABC3D111C3E8EAE00AE0630 /* NSManagedObject+ADVCopying */ = {
+			isa = PBXGroup;
+			children = (
+				3ABC3D121C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.h */,
+				3ABC3D131C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m */,
+			);
+			path = "NSManagedObject+ADVCopying";
+			sourceTree = "<group>";
+		};
+		3ACAF91A1C35555F00783F6E /* BSCWifiHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3ACAF91C1C35555F00783F6E /* BSCWifiHelper.swift */,
+			);
+			name = BSCWifiHelper;
+			path = Core/Helper/BSCWifiHelper;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AE2DB341C20B9D500F67E7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2DB351C20B9D500F67E7B /* LaunchScreen.storyboard */,
+				3AE2DB361C20B9D500F67E7B /* Library.storyboard */,
+				3AE2DB371C20B9D500F67E7B /* Main.storyboard */,
+				3AE2DB381C20B9D500F67E7B /* Player.storyboard */,
+				3A0FFB6E1C2EE59200798803 /* Debug.storyboard */,
+				3A6DA49B1C5A51D700811AA7 /* Recommendation.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AE2DB391C20B9D500F67E7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2DB3A1C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib */,
+				3AE2DB3B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib */,
+				3AE2DB3C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib */,
+				3AE2DB3D1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib */,
+				3AE2DB3E1C20B9D500F67E7B /* BSCSongTimeSlider.xib */,
+				3AE2DB3F1C20B9D500F67E7B /* BSCTableViewFooterView.xib */,
+				3A1821471C32BBCA00C21BDC /* BSCMapTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AE8C3E71C4B093400B8294B /* BSCLog */ = {
+			isa = PBXGroup;
+			children = (
+				3AE8C3E21C4B093000B8294B /* BSCLog.swift */,
+			);
+			name = BSCLog;
+			sourceTree = "<group>";
+		};
+		3AEF15A31C04CF9C006090D5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3AA448071C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift */,
+				3A9618E51C1DBB6C00AD09C4 /* BSCTabBarController.swift */,
+				3AEF15A01C04CA6D006090D5 /* BSCViewController.swift */,
+				3A90AA151C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3AFB4D091C1F714800FB7BFB /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				3A3912FC1C1EF3D700882068 /* BSCSongTimeSlider.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		3AFB4D0A1C1F714F00FB7BFB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3A78A9581C1C55DC00F8F55C /* BSCButton.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		5A52BE5BCD10E893B0A1FB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AAE1A641C393F7C007E4D24 /* Security.framework */,
+				3ACAF91F1C3556B800783F6E /* SystemConfiguration.framework */,
+				3A09A1801C22EDB8006980C4 /* libPods.a */,
+				3A7A316E1C00C35900DE5B11 /* MediaPlayer.framework */,
+				3A7A316C1C00C2DE00DE5B11 /* Foundation.framework */,
+				3A7A316A1C00C2C100DE5B11 /* AVFoundation.framework */,
+				6DCAFF37190549B906E89A53 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB2B2989CD9709B815FD498A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36095734646DCA6E07865124 /* Pods.debug.xcconfig */,
+				3FBABB79C78DBFB553216BD5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A6E717A1C8BB3590012A086 /* bachelorarbeit-prototyp-normal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6E721E1C8BB3590012A086 /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-normal" */;
+			buildPhases = (
+				3A6E717D1C8BB3590012A086 /* Check Pods Manifest.lock */,
+				3A6E717E1C8BB3590012A086 /* Sources */,
+				3A6E71ED1C8BB3590012A086 /* Frameworks */,
+				3A6E71F41C8BB3590012A086 /* Resources */,
+				3A6E721A1C8BB3590012A086 /* Embed Pods Frameworks */,
+				3A6E721B1C8BB3590012A086 /* Copy Pods Resources */,
+				3A6E721C1C8BB3590012A086 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6E717B1C8BB3590012A086 /* PBXTargetDependency */,
+			);
+			name = "bachelorarbeit-prototyp-normal";
+			productName = "bachelorarbeit-prototyp";
+			productReference = 3A6E72211C8BB3590012A086 /* bachelorarbeit-prototyp-normal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB49F441BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB49F701BF7904900B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-internal-alpha" */;
+			buildPhases = (
+				B469E78EFD801ECB663DBBAF /* Check Pods Manifest.lock */,
+				3AB49F411BF7904900B6DC6F /* Sources */,
+				3AB49F421BF7904900B6DC6F /* Frameworks */,
+				3AB49F431BF7904900B6DC6F /* Resources */,
+				B8911908A447C458ACFC5B1E /* Embed Pods Frameworks */,
+				FFAE9ADCD2D7CEE2D936DC81 /* Copy Pods Resources */,
+				3A9618E41C1DBAE600AD09C4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A9F03211C79381E00D8C3CA /* PBXTargetDependency */,
+			);
+			name = "bachelorarbeit-prototyp-internal-alpha";
+			productName = "bachelorarbeit-prototyp";
+			productReference = 3AB49F451BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB49F5B1BF7904900B6DC6F /* bachelorarbeit-prototyp-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB49F731BF7904900B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-Tests" */;
+			buildPhases = (
+				3AB49F581BF7904900B6DC6F /* Sources */,
+				3AB49F591BF7904900B6DC6F /* Frameworks */,
+				3AB49F5A1BF7904900B6DC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB49F5E1BF7904900B6DC6F /* PBXTargetDependency */,
+			);
+			name = "bachelorarbeit-prototyp-Tests";
+			productName = "bachelorarbeit-prototypTests";
+			productReference = 3AB49F5C1BF7904900B6DC6F /* bachelorarbeit-prototyp-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AB49F661BF7904900B6DC6F /* bachelorarbeit-prototyp-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB49F761BF7904900B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-UITests" */;
+			buildPhases = (
+				3AB49F631BF7904900B6DC6F /* Sources */,
+				3AB49F641BF7904900B6DC6F /* Frameworks */,
+				3AB49F651BF7904900B6DC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB49F691BF7904900B6DC6F /* PBXTargetDependency */,
+			);
+			name = "bachelorarbeit-prototyp-UITests";
+			productName = "bachelorarbeit-prototypUITests";
+			productReference = 3AB49F671BF7904900B6DC6F /* bachelorarbeit-prototyp-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3AB49FE61BF7A71100B6DC6F /* bachelorarbeit-prototyp-internal-beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB49FF41BF7A71100B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-internal-beta" */;
+			buildPhases = (
+				3AB49FE71BF7A71100B6DC6F /* Check Pods Manifest.lock */,
+				3AB49FE81BF7A71100B6DC6F /* Sources */,
+				3AB49FEC1BF7A71100B6DC6F /* Frameworks */,
+				3AB49FEE1BF7A71100B6DC6F /* Resources */,
+				3AB49FF21BF7A71100B6DC6F /* Embed Pods Frameworks */,
+				3AB49FF31BF7A71100B6DC6F /* Copy Pods Resources */,
+				3A09A1771C22E9FD006980C4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A9F03251C79382200D8C3CA /* PBXTargetDependency */,
+			);
+			name = "bachelorarbeit-prototyp-internal-beta";
+			productName = "bachelorarbeit-prototyp";
+			productReference = 3AB49FF71BF7A71100B6DC6F /* bachelorarbeit-prototyp-internal-beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB49F3D1BF7904900B6DC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSC;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hans Seiffert";
+				TargetAttributes = {
+					3A6E717A1C8BB3590012A086 = {
+						DevelopmentTeam = BY48Q678R7;
+					};
+					3AB49F441BF7904900B6DC6F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = BY48Q678R7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					3AB49F5B1BF7904900B6DC6F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3AB49F441BF7904900B6DC6F;
+					};
+					3AB49F661BF7904900B6DC6F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3AB49F441BF7904900B6DC6F;
+					};
+					3AB49FE61BF7A71100B6DC6F = {
+						DevelopmentTeam = BY48Q678R7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3AB49F401BF7904900B6DC6F /* Build configuration list for PBXProject "bachelorarbeit-prototyp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+			);
+			mainGroup = 3AB49F3C1BF7904900B6DC6F;
+			productRefGroup = 3AB49F461BF7904900B6DC6F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3A9F03191C79371600D8C3CA /* Products */;
+					ProjectRef = 3A9F03181C79371600D8C3CA /* LNPopupController.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3AB49F441BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha */,
+				3AB49FE61BF7A71100B6DC6F /* bachelorarbeit-prototyp-internal-beta */,
+				3A6E717A1C8BB3590012A086 /* bachelorarbeit-prototyp-normal */,
+				3AB49F5B1BF7904900B6DC6F /* bachelorarbeit-prototyp-Tests */,
+				3AB49F661BF7904900B6DC6F /* bachelorarbeit-prototyp-UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3A9F031D1C79371600D8C3CA /* LNPopupController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LNPopupController.framework;
+			remoteRef = 3A9F031C1C79371600D8C3CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A6E71F41C8BB3590012A086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6E71F51C8BB3590012A086 /* BSCTableViewFooterView.xib in Resources */,
+				3A6E71F71C8BB3590012A086 /* Recommendation.storyboard in Resources */,
+				3A6E71F81C8BB3590012A086 /* BSCArtistAlbumHeaderView.xib in Resources */,
+				3A6E71FA1C8BB3590012A086 /* Debug.storyboard in Resources */,
+				3A6E71FB1C8BB3590012A086 /* Localizable.strings in Resources */,
+				3A6E71FC1C8BB3590012A086 /* Player.storyboard in Resources */,
+				3A6E71FD1C8BB3590012A086 /* Assets.xcassets in Resources */,
+				3A6E71FF1C8BB3590012A086 /* BSCMediaItemTableViewCell.xib in Resources */,
+				3A6E72021C8BB3590012A086 /* BSCMapTableViewCell.xib in Resources */,
+				3A6E72041C8BB3590012A086 /* Main.storyboard in Resources */,
+				3A6E72051C8BB3590012A086 /* LaunchScreen.storyboard in Resources */,
+				3A6E72061C8BB3590012A086 /* BSCMusicLibraryContainerTypeButtonView.xib in Resources */,
+				3A6E720A1C8BB3590012A086 /* BSCMediaItemCollectionTableViewCell.xib in Resources */,
+				3A6E72101C8BB3590012A086 /* BSCSongTimeSlider.xib in Resources */,
+				3A6E72191C8BB3590012A086 /* Library.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F431BF7904900B6DC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE2DB521C20B9D500F67E7B /* BSCTableViewFooterView.xib in Resources */,
+				3A6DA49C1C5A51D700811AA7 /* Recommendation.storyboard in Resources */,
+				3AE2DB481C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib in Resources */,
+				3A0FFB6F1C2EE59200798803 /* Debug.storyboard in Resources */,
+				3A78A9601C1C7B7B00F8F55C /* Localizable.strings in Resources */,
+				3AE2DB461C20B9D500F67E7B /* Player.storyboard in Resources */,
+				3AB49FE11BF796BD00B6DC6F /* Assets.xcassets in Resources */,
+				3AE2DB4C1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib in Resources */,
+				3A1821481C32BBCA00C21BDC /* BSCMapTableViewCell.xib in Resources */,
+				3AE2DB441C20B9D500F67E7B /* Main.storyboard in Resources */,
+				3AE2DB401C20B9D500F67E7B /* LaunchScreen.storyboard in Resources */,
+				3AE2DB4E1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib in Resources */,
+				3AE2DB4A1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib in Resources */,
+				3AE2DB501C20B9D500F67E7B /* BSCSongTimeSlider.xib in Resources */,
+				3AE2DB421C20B9D500F67E7B /* Library.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F5A1BF7904900B6DC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F651BF7904900B6DC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49FEE1BF7A71100B6DC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE2DB531C20B9D500F67E7B /* BSCTableViewFooterView.xib in Resources */,
+				3A6DA49D1C5A51D700811AA7 /* Recommendation.storyboard in Resources */,
+				3AE2DB491C20B9D500F67E7B /* BSCArtistAlbumHeaderView.xib in Resources */,
+				3A0FFB701C2EE59200798803 /* Debug.storyboard in Resources */,
+				3A78A9611C1C7B7B00F8F55C /* Localizable.strings in Resources */,
+				3AE2DB471C20B9D500F67E7B /* Player.storyboard in Resources */,
+				3AB49FF01BF7A71100B6DC6F /* Assets.xcassets in Resources */,
+				3AE2DB4D1C20B9D500F67E7B /* BSCMediaItemTableViewCell.xib in Resources */,
+				3A1821491C32BBCA00C21BDC /* BSCMapTableViewCell.xib in Resources */,
+				3AE2DB451C20B9D500F67E7B /* Main.storyboard in Resources */,
+				3AE2DB411C20B9D500F67E7B /* LaunchScreen.storyboard in Resources */,
+				3AE2DB4F1C20B9D500F67E7B /* BSCMusicLibraryContainerTypeButtonView.xib in Resources */,
+				3AE2DB4B1C20B9D500F67E7B /* BSCMediaItemCollectionTableViewCell.xib in Resources */,
+				3AE2DB511C20B9D500F67E7B /* BSCSongTimeSlider.xib in Resources */,
+				3AE2DB431C20B9D500F67E7B /* Library.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6E717D1C8BB3590012A086 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A6E721A1C8BB3590012A086 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A6E721B1C8BB3590012A086 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB49FE71BF7A71100B6DC6F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB49FF21BF7A71100B6DC6F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB49FF31BF7A71100B6DC6F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B469E78EFD801ECB663DBBAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8911908A447C458ACFC5B1E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAE9ADCD2D7CEE2D936DC81 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A6E717E1C8BB3590012A086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6E717F1C8BB3590012A086 /* BSCContextComparisonDebugViewController.swift in Sources */,
+				3A6E71801C8BB3590012A086 /* BSCSessionContext+CoreDataProperties.swift in Sources */,
+				3A6E71811C8BB3590012A086 /* BSCLocationCoordinates.swift in Sources */,
+				3A6E71821C8BB3590012A086 /* BSCSongContextsDebugViewController.swift in Sources */,
+				3A6E71831C8BB3590012A086 /* BSCTabBarController.swift in Sources */,
+				3A6E71841C8BB3590012A086 /* BSCSongTimeSlider.swift in Sources */,
+				3A6E71851C8BB3590012A086 /* BSCSongsViewController.swift in Sources */,
+				3A6E71861C8BB3590012A086 /* BSCViewController.swift in Sources */,
+				3A6E71871C8BB3590012A086 /* BSCContext+CoreDataProperties.swift in Sources */,
+				3A6E71891C8BB3590012A086 /* MPMediaItemCollection+Bachelorarbeit.swift in Sources */,
+				3A6E718A1C8BB3590012A086 /* NSManagedObject+ADVCopying.m in Sources */,
+				3A6E718B1C8BB3590012A086 /* BSCArtistsViewController.swift in Sources */,
+				3A6E718C1C8BB3590012A086 /* BSCMusicLibraryManagerConstants.swift in Sources */,
+				3A6E718D1C8BB3590012A086 /* MPMediaItemCollection+BSCMusicLibraryManager.swift in Sources */,
+				3A6E718E1C8BB3590012A086 /* BSCMotionContext+CoreDataProperties.swift in Sources */,
+				3A6E718F1C8BB3590012A086 /* BSCContext.swift in Sources */,
+				3A6E71901C8BB3590012A086 /* BSCSongInfo.swift in Sources */,
+				3A6E71911C8BB3590012A086 /* BSCContextPickerDebugViewController.swift in Sources */,
+				3A6E71921C8BB3590012A086 /* BSCContextFeature.swift in Sources */,
+				3A6E71931C8BB3590012A086 /* BSCAlbumsViewController.swift in Sources */,
+				3A6E71951C8BB3590012A086 /* BSCConstants.swift in Sources */,
+				3A6E71961C8BB3590012A086 /* BSCRecommendationCollectionViewCell.swift in Sources */,
+				3A53ED241C8E485500A97F5D /* UIColor+BSC.swift in Sources */,
+				3A6E71971C8BB3590012A086 /* BSCButton.swift in Sources */,
+				3A6E71981C8BB3590012A086 /* BSCGenresViewController.swift in Sources */,
+				3A6E71991C8BB3590012A086 /* BSCPlaylogSongsDebugViewController.swift in Sources */,
+				3A6E719A1C8BB3590012A086 /* BSCContextComparisonTableViewCell.swift in Sources */,
+				3A53ED261C8E487700A97F5D /* BSCRecommendationsCell.swift in Sources */,
+				3A6E719B1C8BB3590012A086 /* BSCWeatherContext.swift in Sources */,
+				3A6E719C1C8BB3590012A086 /* BSCArtistViewController.swift in Sources */,
+				3A6E719D1C8BB3590012A086 /* BSCMusicLibraryContainerTypeButtonView.swift in Sources */,
+				3A6E719E1C8BB3590012A086 /* BSCRecommendationViewController.swift in Sources */,
+				3A6E719F1C8BB3590012A086 /* BSCContainerViewController.swift in Sources */,
+				3A6E71A01C8BB3590012A086 /* BSCTableViewHeaderFooterView.swift in Sources */,
+				3A6E71A21C8BB3590012A086 /* BSCLog.swift in Sources */,
+				3A6E71A31C8BB3590012A086 /* BSCContextManager.swift in Sources */,
+				3A6E71A41C8BB3590012A086 /* BSCArtistAlbumHeaderView.swift in Sources */,
+				3A6E71A51C8BB3590012A086 /* BSCMusicLibraryManager.swift in Sources */,
+				3A6E71A61C8BB3590012A086 /* BSCPlaylogSong+CoreDataProperties.swift in Sources */,
+				3A6E71A71C8BB3590012A086 /* BSCPlaylogSessionsDebugViewController.swift in Sources */,
+				3A6E71A81C8BB3590012A086 /* BSCSessionContext.swift in Sources */,
+				3A6E71AA1C8BB3590012A086 /* BSCAppDelegate.swift in Sources */,
+				3A6E71AB1C8BB3590012A086 /* BSCSimilarSessionContextsDebugViewController.swift in Sources */,
+				3A6E71AC1C8BB3590012A086 /* BSCPlaylogSession.swift in Sources */,
+				3A6E71AD1C8BB3590012A086 /* BSCWeatherManager.swift in Sources */,
+				3A6E71AF1C8BB3590012A086 /* BSCPlaylistsViewController.swift in Sources */,
+				3A6E71B01C8BB3590012A086 /* BSCRecommendationsViewController.swift in Sources */,
+				3A6E71B11C8BB3590012A086 /* BSCTableViewCell.swift in Sources */,
+				3A6E71B31C8BB3590012A086 /* BSCContextDetailSections.swift in Sources */,
+				3A6E71B41C8BB3590012A086 /* BSCContextDetailTableViewCell.swift in Sources */,
+				3A6E71B51C8BB3590012A086 /* BSCMusicPlayerItem.swift in Sources */,
+				3A6E71B71C8BB3590012A086 /* BSCMusicLibraryContainerViewController.swift in Sources */,
+				3A6E71B81C8BB3590012A086 /* BSCDebugTableViewController.swift in Sources */,
+				3A6E71B91C8BB3590012A086 /* UIStoryboard+Bachelorarbeit.swift in Sources */,
+				3A6E71BA1C8BB3590012A086 /* BSCSimilarContextsDebugViewController.swift in Sources */,
+				3A6E71BB1C8BB3590012A086 /* BSCPlayerViewController.swift in Sources */,
+				3A6E71BC1C8BB3590012A086 /* BSCSongInfo+CoreDataProperties.swift in Sources */,
+				3A6E71BE1C8BB3590012A086 /* BSCPlaylogSession+CoreDataProperties.swift in Sources */,
+				3A6E71BF1C8BB3590012A086 /* BSCSessionContextsDebugViewController.swift in Sources */,
+				3A6E71C01C8BB3590012A086 /* bachelorarbeit_prototyp.xcdatamodeld in Sources */,
+				3A6E71C11C8BB3590012A086 /* BSCContextDetailRows.swift in Sources */,
+				3A53ED251C8E486000A97F5D /* BSCRecommendationHeaderCell.swift in Sources */,
+				3A6E71C21C8BB3590012A086 /* BSCRecommendation.swift in Sources */,
+				3A6E71C31C8BB3590012A086 /* BSCLocationManager.swift in Sources */,
+				3A6E71C41C8BB3590012A086 /* BSCMapView.swift in Sources */,
+				3A6E71C51C8BB3590012A086 /* BSCWifiHelper.swift in Sources */,
+				3A6E71C61C8BB3590012A086 /* BSCPlaylogManager.swift in Sources */,
+				3A6E71C71C8BB3590012A086 /* BSCRecommendationManager.swift in Sources */,
+				3A6E71C81C8BB3590012A086 /* BSCMediaTypeSwitcherView.swift in Sources */,
+				3A6E71C91C8BB3590012A086 /* BSCMusicCollectionTableViewCell.swift in Sources */,
+				3A6E71CA1C8BB3590012A086 /* BSCMusicPlayerQueue.swift in Sources */,
+				3A6E71CB1C8BB3590012A086 /* BSCNavigationControllerViewController.swift in Sources */,
+				3A6E71CD1C8BB3590012A086 /* BSCContextComparisonHelper.swift in Sources */,
+				3A6E71CE1C8BB3590012A086 /* BSCMapTableViewCell.swift in Sources */,
+				3A6E71CF1C8BB3590012A086 /* NSDate+Rounded.swift in Sources */,
+				3A6E71D01C8BB3590012A086 /* BSCFetchedResultsTableViewController.swift in Sources */,
+				3A6E71D21C8BB3590012A086 /* BSCMusicPlayer+MPMediaItem.swift in Sources */,
+				3A6E71D31C8BB3590012A086 /* BSCLocationCoordinates+CoreDataProperties.swift in Sources */,
+				3A6E71D41C8BB3590012A086 /* BSCSongContext+CoreDataProperties.swift in Sources */,
+				3A6E71D51C8BB3590012A086 /* BSCPreferences.swift in Sources */,
+				3A6E71D61C8BB3590012A086 /* BSCContextsDebugViewController.swift in Sources */,
+				3A6E71D71C8BB3590012A086 /* BSCTableViewFooterView.swift in Sources */,
+				3A6E71D91C8BB3590012A086 /* NSManagedObject+Serialization.m in Sources */,
+				3A6E71DA1C8BB3590012A086 /* BSCExtensions.swift in Sources */,
+				3A6E71DB1C8BB3590012A086 /* BSCPlaylogSong.swift in Sources */,
+				3A6E71DC1C8BB3590012A086 /* BSCSimilarSongContextsDebugViewController.swift in Sources */,
+				3A6E71DD1C8BB3590012A086 /* BSCRecommendationHeaderTableViewDataSource.swift in Sources */,
+				3A6E71DE1C8BB3590012A086 /* BSCHelper.swift in Sources */,
+				3A6E71DF1C8BB3590012A086 /* MPMediaItem+Bachelorarbeit.swift in Sources */,
+				3A6E71E01C8BB3590012A086 /* BSCContextDetailDebugViewController.swift in Sources */,
+				3A6E71E11C8BB3590012A086 /* BSCRecommendationsCollectionViewDataSource.swift in Sources */,
+				3A6E71E21C8BB3590012A086 /* BSCAlbumViewController.swift in Sources */,
+				3A6E71E31C8BB3590012A086 /* UIImage+Color.swift in Sources */,
+				3A6E71E41C8BB3590012A086 /* BSCMusicItemTableViewCell.swift in Sources */,
+				3A6E71E51C8BB3590012A086 /* BSCMusicPlayer.swift in Sources */,
+				3A6E71E61C8BB3590012A086 /* BSCContainerViewControllerSegue.swift in Sources */,
+				3A6E71E71C8BB3590012A086 /* BSCSongContext.swift in Sources */,
+				3A6E71E81C8BB3590012A086 /* BSCMotionActivityManager.swift in Sources */,
+				3A6E71E91C8BB3590012A086 /* BSCMotionContext.swift in Sources */,
+				3A6E71EA1C8BB3590012A086 /* BSCWeatherContext+CoreDataProperties.swift in Sources */,
+				3A6E71EB1C8BB3590012A086 /* NSManagedObject+Bachelorarbeit.swift in Sources */,
+				3A6E71EC1C8BB3590012A086 /* BSCMusicLibraryBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F411BF7904900B6DC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A59932F1C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift in Sources */,
+				3A8AD2911C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift in Sources */,
+				3A43BA061C61343700432A2E /* BSCLocationCoordinates.swift in Sources */,
+				3A5993471C7248E5006FD38D /* BSCSongContextsDebugViewController.swift in Sources */,
+				3A9618E61C1DBB6C00AD09C4 /* BSCTabBarController.swift in Sources */,
+				3A3912FD1C1EF3D700882068 /* BSCSongTimeSlider.swift in Sources */,
+				3A2E19911C048BD400D21E61 /* BSCSongsViewController.swift in Sources */,
+				3AEF15A11C04CA6D006090D5 /* BSCViewController.swift in Sources */,
+				3A5992F31C723D66006FD38D /* BSCContext+CoreDataProperties.swift in Sources */,
+				3AEF15981C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift in Sources */,
+				3ABC3D141C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m in Sources */,
+				3A2E19951C049A5900D21E61 /* BSCArtistsViewController.swift in Sources */,
+				3A7A31751C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift in Sources */,
+				3A7A31781C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift in Sources */,
+				3A8AD27C1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift in Sources */,
+				3A1821291C32889A00C21BDC /* BSCContext.swift in Sources */,
+				3A0FFB6C1C2EE02800798803 /* BSCSongInfo.swift in Sources */,
+				3A59934C1C724901006FD38D /* BSCContextPickerDebugViewController.swift in Sources */,
+				3A90FDA31C7892EA009DD843 /* BSCContextFeature.swift in Sources */,
+				3A2E198D1C048BD400D21E61 /* BSCAlbumsViewController.swift in Sources */,
+				3A7A31841C012B2800DE5B11 /* BSCConstants.swift in Sources */,
+				3A6DA4B11C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift in Sources */,
+				3A78A9591C1C55DC00F8F55C /* BSCButton.swift in Sources */,
+				3AB311F31C0A0CBB00EB31B4 /* BSCGenresViewController.swift in Sources */,
+				3AA448051C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift in Sources */,
+				3A02A8C61C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift in Sources */,
+				3AD5D00C1C4419DD00A38570 /* BSCWeatherContext.swift in Sources */,
+				3A2E19971C049A5900D21E61 /* BSCArtistViewController.swift in Sources */,
+				3A6CBCD91C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift in Sources */,
+				3A6DA4B61C5B63F200811AA7 /* BSCRecommendationViewController.swift in Sources */,
+				3A6CBCD51C1597F6009901D8 /* BSCContainerViewController.swift in Sources */,
+				3A2652EE1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift in Sources */,
+				3AE8C3E31C4B093000B8294B /* BSCLog.swift in Sources */,
+				3A1821441C32A42C00C21BDC /* BSCContextManager.swift in Sources */,
+				3A2652FF1C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift in Sources */,
+				3A7A31721C00C39B00DE5B11 /* BSCMusicLibraryManager.swift in Sources */,
+				3A8AD2841C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift in Sources */,
+				3AA448011C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift in Sources */,
+				3A8AD29B1C72212B008F11FD /* BSCSessionContext.swift in Sources */,
+				3AB49F7A1BF7914400B6DC6F /* BSCAppDelegate.swift in Sources */,
+				3A59931D1C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift in Sources */,
+				3A0FFB681C2EE02800798803 /* BSCPlaylogSession.swift in Sources */,
+				3AE8C3EA1C4B18AE00B8294B /* BSCWeatherManager.swift in Sources */,
+				3AEF159C1C04BDB4006090D5 /* BSCPlaylistsViewController.swift in Sources */,
+				3A6E723B1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift in Sources */,
+				3A6DA4A11C5A575A00811AA7 /* BSCRecommendationsViewController.swift in Sources */,
+				3A78A95C1C1C6FDE00F8F55C /* BSCTableViewCell.swift in Sources */,
+				3A59933B1C7248E5006FD38D /* BSCContextDetailSections.swift in Sources */,
+				3AA246831C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift in Sources */,
+				3A78A9681C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift in Sources */,
+				3AC445881C15939500D518BE /* BSCMusicLibraryContainerViewController.swift in Sources */,
+				3A0FB3F31C60EECC00CB4C04 /* BSCDebugTableViewController.swift in Sources */,
+				3A9618F01C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift in Sources */,
+				3A5993191C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift in Sources */,
+				3A9618EC1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift in Sources */,
+				3A8AD2881C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift in Sources */,
+				3A53ED221C8E485500A97F5D /* UIColor+BSC.swift in Sources */,
+				3A8AD2801C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift in Sources */,
+				3A5993431C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift in Sources */,
+				3AB49F851BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld in Sources */,
+				3A5993371C7248E5006FD38D /* BSCContextDetailRows.swift in Sources */,
+				3A5992F81C723DD3006FD38D /* BSCRecommendation.swift in Sources */,
+				3A895DD81C340A4600E29E02 /* BSCLocationManager.swift in Sources */,
+				3A6DA4BB1C5B6D2E00811AA7 /* BSCMapView.swift in Sources */,
+				3ACAF91D1C35555F00783F6E /* BSCWifiHelper.swift in Sources */,
+				3A8EA3911C2ACB8100C8D16C /* BSCPlaylogManager.swift in Sources */,
+				3A49E3AD1C591F5500CE7F06 /* BSCRecommendationManager.swift in Sources */,
+				3A6CBCDF1C15B654009901D8 /* BSCMediaTypeSwitcherView.swift in Sources */,
+				3A7A317B1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift in Sources */,
+				3A6FCF481C201D1F0088A719 /* BSCMusicPlayerQueue.swift in Sources */,
+				3A90AA161C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift in Sources */,
+				3A90FD9F1C7892EA009DD843 /* BSCContextComparisonHelper.swift in Sources */,
+				3A18214B1C32BC3200C21BDC /* BSCMapTableViewCell.swift in Sources */,
+				3A6D30BA1C6CCF4300D6BF62 /* NSDate+Rounded.swift in Sources */,
+				3AA448081C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift in Sources */,
+				3A78A96B1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift in Sources */,
+				3A8AD2781C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift in Sources */,
+				3A5993021C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift in Sources */,
+				3A2652D11C1973580042C243 /* BSCPreferences.swift in Sources */,
+				3A59933F1C7248E5006FD38D /* BSCContextsDebugViewController.swift in Sources */,
+				3A57B69C1C03B77B00B1A507 /* BSCTableViewFooterView.swift in Sources */,
+				3A0FB3EE1C60EDB200CB4C04 /* NSManagedObject+Serialization.m in Sources */,
+				3A53ED1F1C8E481F00A97F5D /* BSCRecommendationsCell.swift in Sources */,
+				3AD5CFF81C4415A700A38570 /* BSCExtensions.swift in Sources */,
+				3A0FFB6A1C2EE02800798803 /* BSCPlaylogSong.swift in Sources */,
+				3A5993211C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift in Sources */,
+				3AE8E4191C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift in Sources */,
+				3A2652F21C19B9830042C243 /* BSCHelper.swift in Sources */,
+				3A57B6821C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift in Sources */,
+				3A5993331C7248E5006FD38D /* BSCContextDetailDebugViewController.swift in Sources */,
+				3A6DA4A71C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift in Sources */,
+				3A2E198F1C048BD400D21E61 /* BSCAlbumViewController.swift in Sources */,
+				3A78A9531C1C49C300F8F55C /* UIImage+Color.swift in Sources */,
+				3A57B67C1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift in Sources */,
+				3A78A9651C1C7F5300F8F55C /* BSCMusicPlayer.swift in Sources */,
+				3A6CBCD21C159773009901D8 /* BSCContainerViewControllerSegue.swift in Sources */,
+				3A5992FD1C72403B006FD38D /* BSCSongContext.swift in Sources */,
+				3A9397AB1C35697E0062F6AD /* BSCMotionActivityManager.swift in Sources */,
+				3A1821271C32889A00C21BDC /* BSCMotionContext.swift in Sources */,
+				3A8AD28C1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift in Sources */,
+				3A18211E1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift in Sources */,
+				3A2E198B1C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F581BF7904900B6DC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB49F9E1BF7916700B6DC6F /* bachelorarbeit_prototypTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49F631BF7904900B6DC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB49FA51BF7916700B6DC6F /* bachelorarbeit_prototypUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB49FE81BF7A71100B6DC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5993301C7248E5006FD38D /* BSCContextComparisonDebugViewController.swift in Sources */,
+				3A8AD2921C722113008F11FD /* BSCSessionContext+CoreDataProperties.swift in Sources */,
+				3A43BA071C61343700432A2E /* BSCLocationCoordinates.swift in Sources */,
+				3A5993481C7248E5006FD38D /* BSCSongContextsDebugViewController.swift in Sources */,
+				3A9618E71C1DBB6C00AD09C4 /* BSCTabBarController.swift in Sources */,
+				3A3912FE1C1EF3D700882068 /* BSCSongTimeSlider.swift in Sources */,
+				3A2E19921C048BD400D21E61 /* BSCSongsViewController.swift in Sources */,
+				3AEF15A21C04CA6D006090D5 /* BSCViewController.swift in Sources */,
+				3A5992F41C723D67006FD38D /* BSCContext+CoreDataProperties.swift in Sources */,
+				3AEF15991C04A0F7006090D5 /* MPMediaItemCollection+Bachelorarbeit.swift in Sources */,
+				3ABC3D151C3E8EAE00AE0630 /* NSManagedObject+ADVCopying.m in Sources */,
+				3A2E19961C049A5900D21E61 /* BSCArtistsViewController.swift in Sources */,
+				3A7A31761C00C52D00DE5B11 /* BSCMusicLibraryManagerConstants.swift in Sources */,
+				3A7A31791C00DA1300DE5B11 /* MPMediaItemCollection+BSCMusicLibraryManager.swift in Sources */,
+				3A8AD27D1C72090A008F11FD /* BSCMotionContext+CoreDataProperties.swift in Sources */,
+				3A18212A1C32889A00C21BDC /* BSCContext.swift in Sources */,
+				3A0FFB6D1C2EE02800798803 /* BSCSongInfo.swift in Sources */,
+				3A59934D1C724901006FD38D /* BSCContextPickerDebugViewController.swift in Sources */,
+				3A90FDA41C7892EA009DD843 /* BSCContextFeature.swift in Sources */,
+				3A2E198E1C048BD400D21E61 /* BSCAlbumsViewController.swift in Sources */,
+				3A7A31851C012B2800DE5B11 /* BSCConstants.swift in Sources */,
+				3A6DA4B21C5A69A400811AA7 /* BSCRecommendationCollectionViewCell.swift in Sources */,
+				3A78A95A1C1C55DC00F8F55C /* BSCButton.swift in Sources */,
+				3AB311F41C0A0CBB00EB31B4 /* BSCGenresViewController.swift in Sources */,
+				3AA448061C2EF6B000FC43DE /* BSCPlaylogSongsDebugViewController.swift in Sources */,
+				3A02A8C71C4FCCF30030DCA5 /* BSCContextComparisonTableViewCell.swift in Sources */,
+				3AD5D00D1C4419DD00A38570 /* BSCWeatherContext.swift in Sources */,
+				3A2E19981C049A5900D21E61 /* BSCArtistViewController.swift in Sources */,
+				3A6CBCDA1C159B46009901D8 /* BSCMusicLibraryContainerTypeButtonView.swift in Sources */,
+				3A6DA4B71C5B63F200811AA7 /* BSCRecommendationViewController.swift in Sources */,
+				3A6CBCD61C1597F6009901D8 /* BSCContainerViewController.swift in Sources */,
+				3A2652EF1C19B94E0042C243 /* BSCTableViewHeaderFooterView.swift in Sources */,
+				3AE8C3E41C4B093000B8294B /* BSCLog.swift in Sources */,
+				3A1821451C32A42C00C21BDC /* BSCContextManager.swift in Sources */,
+				3A2653001C1A1F860042C243 /* BSCArtistAlbumHeaderView.swift in Sources */,
+				3A7A31731C00C39B00DE5B11 /* BSCMusicLibraryManager.swift in Sources */,
+				3A8AD2851C72090A008F11FD /* BSCPlaylogSong+CoreDataProperties.swift in Sources */,
+				3AA448021C2EEB2500FC43DE /* BSCPlaylogSessionsDebugViewController.swift in Sources */,
+				3A8AD29C1C72212B008F11FD /* BSCSessionContext.swift in Sources */,
+				3AB49FEA1BF7A71100B6DC6F /* BSCAppDelegate.swift in Sources */,
+				3A59931E1C72486C006FD38D /* BSCSimilarSessionContextsDebugViewController.swift in Sources */,
+				3A0FFB691C2EE02800798803 /* BSCPlaylogSession.swift in Sources */,
+				3AE8C3EB1C4B18AE00B8294B /* BSCWeatherManager.swift in Sources */,
+				3AEF159D1C04BDB4006090D5 /* BSCPlaylistsViewController.swift in Sources */,
+				3A6E723C1C8DCA550012A086 /* BSCRecommendationHeaderCell.swift in Sources */,
+				3A6DA4A21C5A575A00811AA7 /* BSCRecommendationsViewController.swift in Sources */,
+				3A78A95D1C1C6FDE00F8F55C /* BSCTableViewCell.swift in Sources */,
+				3A59933C1C7248E5006FD38D /* BSCContextDetailSections.swift in Sources */,
+				3AA246841C74CF4D00400C33 /* BSCContextDetailTableViewCell.swift in Sources */,
+				3A78A9691C1C7F9F00F8F55C /* BSCMusicPlayerItem.swift in Sources */,
+				3AC445891C15939500D518BE /* BSCMusicLibraryContainerViewController.swift in Sources */,
+				3A0FB3F41C60EECC00CB4C04 /* BSCDebugTableViewController.swift in Sources */,
+				3A9618F11C1DBCDF00AD09C4 /* UIStoryboard+Bachelorarbeit.swift in Sources */,
+				3A59931A1C72486C006FD38D /* BSCSimilarContextsDebugViewController.swift in Sources */,
+				3A9618ED1C1DBC6A00AD09C4 /* BSCPlayerViewController.swift in Sources */,
+				3A8AD2891C72090A008F11FD /* BSCSongInfo+CoreDataProperties.swift in Sources */,
+				3A53ED231C8E485500A97F5D /* UIColor+BSC.swift in Sources */,
+				3A8AD2811C72090A008F11FD /* BSCPlaylogSession+CoreDataProperties.swift in Sources */,
+				3A5993441C7248E5006FD38D /* BSCSessionContextsDebugViewController.swift in Sources */,
+				3AB49FEB1BF7A71100B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld in Sources */,
+				3A5993381C7248E5006FD38D /* BSCContextDetailRows.swift in Sources */,
+				3A5992F91C723DD3006FD38D /* BSCRecommendation.swift in Sources */,
+				3A895DD91C340A4600E29E02 /* BSCLocationManager.swift in Sources */,
+				3A6DA4BC1C5B6D2E00811AA7 /* BSCMapView.swift in Sources */,
+				3ACAF91E1C35555F00783F6E /* BSCWifiHelper.swift in Sources */,
+				3A8EA3921C2ACB8100C8D16C /* BSCPlaylogManager.swift in Sources */,
+				3A49E3AE1C591F5500CE7F06 /* BSCRecommendationManager.swift in Sources */,
+				3A6CBCE01C15B654009901D8 /* BSCMediaTypeSwitcherView.swift in Sources */,
+				3A7A317C1C00DE4200DE5B11 /* BSCMusicCollectionTableViewCell.swift in Sources */,
+				3A6FCF491C201D1F0088A719 /* BSCMusicPlayerQueue.swift in Sources */,
+				3A90AA171C16DE3900DBFC15 /* BSCNavigationControllerViewController.swift in Sources */,
+				3A90FDA01C7892EA009DD843 /* BSCContextComparisonHelper.swift in Sources */,
+				3A18214C1C32BC3200C21BDC /* BSCMapTableViewCell.swift in Sources */,
+				3A6D30BB1C6CCF4300D6BF62 /* NSDate+Rounded.swift in Sources */,
+				3AA448091C2EF82200FC43DE /* BSCFetchedResultsTableViewController.swift in Sources */,
+				3A78A96C1C1CBB7500F8F55C /* BSCMusicPlayer+MPMediaItem.swift in Sources */,
+				3A8AD2791C72090A008F11FD /* BSCLocationCoordinates+CoreDataProperties.swift in Sources */,
+				3A5993031C72404C006FD38D /* BSCSongContext+CoreDataProperties.swift in Sources */,
+				3A2652D21C1973580042C243 /* BSCPreferences.swift in Sources */,
+				3A5993401C7248E5006FD38D /* BSCContextsDebugViewController.swift in Sources */,
+				3A57B69D1C03B77B00B1A507 /* BSCTableViewFooterView.swift in Sources */,
+				3A0FB3EF1C60EDB200CB4C04 /* NSManagedObject+Serialization.m in Sources */,
+				3A53ED201C8E481F00A97F5D /* BSCRecommendationsCell.swift in Sources */,
+				3AD5CFF91C4415A700A38570 /* BSCExtensions.swift in Sources */,
+				3A0FFB6B1C2EE02800798803 /* BSCPlaylogSong.swift in Sources */,
+				3A5993221C72486C006FD38D /* BSCSimilarSongContextsDebugViewController.swift in Sources */,
+				3AE8E41A1C68B16900247B46 /* BSCRecommendationHeaderTableViewDataSource.swift in Sources */,
+				3A2652F31C19B9830042C243 /* BSCHelper.swift in Sources */,
+				3A57B6831C0344A100B1A507 /* MPMediaItem+Bachelorarbeit.swift in Sources */,
+				3A5993341C7248E5006FD38D /* BSCContextDetailDebugViewController.swift in Sources */,
+				3A6DA4A81C5A583F00811AA7 /* BSCRecommendationsCollectionViewDataSource.swift in Sources */,
+				3A2E19901C048BD400D21E61 /* BSCAlbumViewController.swift in Sources */,
+				3A78A9541C1C49C300F8F55C /* UIImage+Color.swift in Sources */,
+				3A57B67D1C033F8300B1A507 /* BSCMusicItemTableViewCell.swift in Sources */,
+				3A78A9661C1C7F5300F8F55C /* BSCMusicPlayer.swift in Sources */,
+				3A6CBCD31C159773009901D8 /* BSCContainerViewControllerSegue.swift in Sources */,
+				3A5992FE1C72403B006FD38D /* BSCSongContext.swift in Sources */,
+				3A9397AC1C35697E0062F6AD /* BSCMotionActivityManager.swift in Sources */,
+				3A1821281C32889A00C21BDC /* BSCMotionContext.swift in Sources */,
+				3A8AD28D1C72090A008F11FD /* BSCWeatherContext+CoreDataProperties.swift in Sources */,
+				3A18211F1C32818900C21BDC /* NSManagedObject+Bachelorarbeit.swift in Sources */,
+				3A2E198C1C048BD400D21E61 /* BSCMusicLibraryBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A6E717B1C8BB3590012A086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LNPopupController;
+			targetProxy = 3A6E717C1C8BB3590012A086 /* PBXContainerItemProxy */;
+		};
+		3A9F03211C79381E00D8C3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LNPopupController;
+			targetProxy = 3A9F03201C79381E00D8C3CA /* PBXContainerItemProxy */;
+		};
+		3A9F03251C79382200D8C3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LNPopupController;
+			targetProxy = 3A9F03241C79382200D8C3CA /* PBXContainerItemProxy */;
+		};
+		3AB49F5E1BF7904900B6DC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB49F441BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha */;
+			targetProxy = 3AB49F5D1BF7904900B6DC6F /* PBXContainerItemProxy */;
+		};
+		3AB49F691BF7904900B6DC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB49F441BF7904900B6DC6F /* bachelorarbeit-prototyp-internal-alpha */;
+			targetProxy = 3AB49F681BF7904900B6DC6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A78A95E1C1C7B7B00F8F55C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A78A9621C1C7B8E00F8F55C /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A6E721F1C8BB3590012A086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36095734646DCA6E07865124 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Normal";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Core/PLists/bachelorarbeit-prototyp-normal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 16;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					NORMAL,
+				);
+				INFOPLIST_FILE = "Core/PLists/prototyp-normal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D NORMAL -D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototyp.normal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core/SupportingFIles/bachelorarbeit-prototyp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3A6E72201C8BB3590012A086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBABB79C78DBFB553216BD5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Normal";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Core/PLists/bachelorarbeit-prototyp-normal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 16;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					NORMAL,
+				);
+				INFOPLIST_FILE = "Core/PLists/prototyp-normal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D NORMAL -D RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototyp.normal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core/SupportingFIles/bachelorarbeit-prototyp-Bridging-Header.h";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		3AB49F6E1BF7904900B6DC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3AB49F6F1BF7904900B6DC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		3AB49F711BF7904900B6DC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36095734646DCA6E07865124 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Internal-Alpha";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Core/PLists/bachelorarbeit-prototyp-internal-alpha.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 16;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					ALPHA,
+					INTERNAL,
+				);
+				INFOPLIST_FILE = "Core/PLists/prototyp-internal-alpha-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D ALPHA -D DEBUG -D INTERNAL";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototyp.internal.alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core/SupportingFIles/bachelorarbeit-prototyp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3AB49F721BF7904900B6DC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBABB79C78DBFB553216BD5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Internal-Alpha";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Core/PLists/bachelorarbeit-prototyp-internal-alpha.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 16;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					ALPHA,
+					INTERNAL,
+				);
+				INFOPLIST_FILE = "Core/PLists/prototyp-internal-alpha-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D ALPHA -D RELEASE -D INTERNAL";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototyp.internal.alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core/SupportingFIles/bachelorarbeit-prototyp-Bridging-Header.h";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		3AB49F741BF7904900B6DC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototypTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bachelorarbeit-prototyp.app/bachelorarbeit-prototyp";
+			};
+			name = Debug;
+		};
+		3AB49F751BF7904900B6DC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototypTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bachelorarbeit-prototyp.app/bachelorarbeit-prototyp";
+			};
+			name = Release;
+		};
+		3AB49F771BF7904900B6DC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototypUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bachelorarbeit-prototyp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3AB49F781BF7904900B6DC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototypUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bachelorarbeit-prototyp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		3AB49FF51BF7A71100B6DC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36095734646DCA6E07865124 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Internal-Beta";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Core/PLists/bachelorarbeit-prototyp-internal-beta.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 16;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					BETA,
+					INTERNAL,
+				);
+				INFOPLIST_FILE = "Core/PLists/prototyp-internal-beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D BETA -D DEBUG -D INTERNAL";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototyp.internal.beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core/SupportingFIles/bachelorarbeit-prototyp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3AB49FF61BF7A71100B6DC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBABB79C78DBFB553216BD5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Internal-Beta";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Core/PLists/bachelorarbeit-prototyp-internal-beta.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 16;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					BETA,
+					INTERNAL,
+				);
+				INFOPLIST_FILE = "Core/PLists/prototyp-internal-beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D BETA -D RELEASE -D INTERNAL";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.seiffert.hans.htw.bachelor.app.prototyp.bachelorarbeit-prototyp.internal.beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Core/SupportingFIles/bachelorarbeit-prototyp-Bridging-Header.h";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A6E721E1C8BB3590012A086 /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-normal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6E721F1C8BB3590012A086 /* Debug */,
+				3A6E72201C8BB3590012A086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB49F401BF7904900B6DC6F /* Build configuration list for PBXProject "bachelorarbeit-prototyp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB49F6E1BF7904900B6DC6F /* Debug */,
+				3AB49F6F1BF7904900B6DC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB49F701BF7904900B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-internal-alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB49F711BF7904900B6DC6F /* Debug */,
+				3AB49F721BF7904900B6DC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB49F731BF7904900B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB49F741BF7904900B6DC6F /* Debug */,
+				3AB49F751BF7904900B6DC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB49F761BF7904900B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB49F771BF7904900B6DC6F /* Debug */,
+				3AB49F781BF7904900B6DC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB49FF41BF7A71100B6DC6F /* Build configuration list for PBXNativeTarget "bachelorarbeit-prototyp-internal-beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB49FF51BF7A71100B6DC6F /* Debug */,
+				3AB49FF61BF7A71100B6DC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AB49F831BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A5FB5F01C8E181D002F7CE5 /* bachelorarbeit_prototyp 5.xcdatamodel */,
+				3A8AD2671C720754008F11FD /* bachelorarbeit_prototyp 4.xcdatamodel */,
+				3A42776B1C6BBB47006D5EEA /* bachelorarbeit_prototyp 3.xcdatamodel */,
+				3A43BA041C6132C200432A2E /* bachelorarbeit_prototyp 2.xcdatamodel */,
+				3AB49F841BF7915000B6DC6F /* bachelorarbeit_prototyp.xcdatamodel */,
+			);
+			currentVersion = 3A5FB5F01C8E181D002F7CE5 /* bachelorarbeit_prototyp 5.xcdatamodel */;
+			path = bachelorarbeit_prototyp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AB49F3D1BF7904900B6DC6F /* Project object */;
+}

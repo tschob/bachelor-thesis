@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3D3-pk-eKO" customClass="BSCMusicLibraryContainerTypeButtonView" customModule="bachelorarbeit_contextlogger_alpha" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9T-Zr-DgJ">
+                    <rect key="frame" x="115" y="5" width="70" height="21"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXr-c2-Al6">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="86P-ud-vC6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Artists " image="ArrawDown">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="86P-ud-vC6"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="didPressButton:" destination="3D3-pk-eKO" eventType="touchUpInside" id="j36-FN-uJh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="LXr-c2-Al6" secondAttribute="bottom" id="Aup-Jl-G85"/>
+                        <constraint firstAttribute="trailing" secondItem="LXr-c2-Al6" secondAttribute="trailing" id="IEa-YE-ChV"/>
+                        <constraint firstItem="LXr-c2-Al6" firstAttribute="leading" secondItem="R9T-Zr-DgJ" secondAttribute="leading" id="Iu3-vY-dNU"/>
+                        <constraint firstItem="LXr-c2-Al6" firstAttribute="top" secondItem="R9T-Zr-DgJ" secondAttribute="top" id="shi-JT-pRx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="R9T-Zr-DgJ" secondAttribute="trailing" id="ENq-Ih-N3O"/>
+                <constraint firstItem="R9T-Zr-DgJ" firstAttribute="centerX" secondItem="3D3-pk-eKO" secondAttribute="centerX" id="LVG-U4-xMg"/>
+                <constraint firstItem="R9T-Zr-DgJ" firstAttribute="top" secondItem="3D3-pk-eKO" secondAttribute="top" id="Mxk-1I-Y3d"/>
+                <constraint firstItem="R9T-Zr-DgJ" firstAttribute="centerY" secondItem="3D3-pk-eKO" secondAttribute="centerY" id="YVb-yb-hbk"/>
+                <constraint firstAttribute="bottom" secondItem="R9T-Zr-DgJ" secondAttribute="bottom" id="f4j-KA-D9W"/>
+                <constraint firstItem="R9T-Zr-DgJ" firstAttribute="leading" secondItem="3D3-pk-eKO" secondAttribute="leading" id="z1a-Sd-Lam"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="ENq-Ih-N3O"/>
+                    <exclude reference="Mxk-1I-Y3d"/>
+                    <exclude reference="f4j-KA-D9W"/>
+                    <exclude reference="z1a-Sd-Lam"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="titleButton" destination="LXr-c2-Al6" id="cEB-YJ-p9L"/>
+            </connections>
+            <point key="canvasLocation" x="444" y="637"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ArrawDown" width="12" height="5"/>
+    </resources>
+</document>
