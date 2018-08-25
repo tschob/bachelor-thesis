@@ -9,6 +9,7 @@ Subject of the thesis is the recommendation of music depend of the context of th
 
 ![](./.images/app_screens_2.jpg)
 
+
 ## License
 
 The bachelor thesis itself is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/). The source code of the prototype is licensed under the MIT license.
