@@ -5,6 +5,9 @@ You can find the thesis in [Bachelorarbeit\_Seiffert\_Hans.pdf](Bachelorarbeit_S
 
 Subject of the thesis is the recommendation of music depend of the context of the user. I created a concept to archive this and developed an iOS app prototype.
 
+![](./.images/app_sceens_1.png | height=300)
+
+![](./.images/app_sceens_2.png | height=300)
 
 ## License
 
